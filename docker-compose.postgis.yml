@@ -1,0 +1,25 @@
+# Local PostGIS store for the tile factory.
+#   docker compose --env-file .env.postgis -f docker-compose.postgis.yml up -d
+# The SQL files under scripts/postgis/sql/ create the schema on first start.
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: ${SURROGATE_POSTGIS_DB:-surrogate_postgis}
+      POSTGRES_USER: ${SURROGATE_POSTGIS_USER:-surrogate}
+      POSTGRES_PASSWORD: ${SURROGATE_POSTGIS_PASSWORD:?Set SURROGATE_POSTGIS_PASSWORD in .env.postgis}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "${SURROGATE_POSTGIS_HOST:-127.0.0.1}:${SURROGATE_POSTGIS_PORT:-5432}:5432"
+    volumes:
+      - surrogate_postgis_data:/var/lib/postgresql/data
+      - ./scripts/postgis/sql:/docker-entrypoint-initdb.d:ro
+    shm_size: 512m
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  surrogate_postgis_data:

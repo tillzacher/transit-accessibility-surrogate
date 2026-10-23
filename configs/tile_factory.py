@@ -1,0 +1,88 @@
+"""Recorded tile geometry/rasterization; supply registered source keys via environment."""
+
+import os
+from pathlib import Path
+import math
+
+RUN_ID = os.environ["REFERENCE_RUN_ID"]
+POI_DATASET_KEY = os.environ["POI_DATASET_KEY"]
+ROAD_GRAPH_KEY = os.environ["ROAD_GRAPH_KEY"]
+BUS_GRAPH_KEY = os.environ["BUS_GRAPH_KEY"]
+MODES = ["walk_transit", "walk_transit_bus", "walk_transit_rail", "bus_delta"]
+ID_COLS = ["h3", "geometry", "centroid", "run_id", "region"]
+RESULTS_ROOT = Path("data/reference")
+H3_RES = 10
+GRID_WIDTH = 200
+GRID_HEIGHT = 200
+PIXEL_SIZE_M = 105
+GRID_CRS = "EPSG:3857"
+TILE_SEED = 42
+MAX_SAMPLES = 17500
+OVERLAP_TOL = 0.65
+MAX_OVERLAP_STOP = 0.85
+MAX_TRIES_PER_TILE = 200
+HULL_BUFFER_M = -6000.0
+REQUIRE_BUNDESLAENDER_BOUNDARY = True
+RASTER_METHOD = "center"
+RASTER_WORKERS = 4
+RASTER_CHUNK_ROWS = 32
+TILE_WORKERS = 12
+ACCESS_MIN_VALUE = 0.0
+ACCESS_MAX_VALUE = 100.0
+BUILD_POI_TENSORS = True
+POI_CACHE_DIR = Path("data/cache")
+POI_FORCE_RELOAD = False
+POI_SMOOTH = True
+POI_SMOOTH_SIGMA_PX = 1.0
+POI_BOOST = 1.0
+POI_MIN_VALUE = 0.0
+POI_KERNEL_PEAK_VALUE = 1.0
+POI_CLIP_MIN_VALUE = 0.0
+POI_CLIP_MAX_VALUE = 1.0
+POI_USE_MASK = False
+FALLBACK_BUILD_POI = True
+FALLBACK_BUILD_AUX = True
+LOAD_SAT_WRK = True
+WORK_MAX_WEIGHT = 1.0
+WORK_SNAP_M = 200
+WORK_BUFFER_M = 300
+SAT_MAX_WEIGHT = 1.0
+GRAPH_CACHE_DIST = 500.0
+BUS_TENSOR_ENABLED = True
+BUS_MODE = "transit_bus"
+BUS_FORCE_REBUILD = False
+BUS_WALK_CONNECTION_MAX_DISTANCE = 150.0
+BUS_TILE_BUFFER_M = None
+ROAD_MODE = "drive"
+BUS_W_REAL_MODE = "count"
+BUS_EDGE_RENDER_MODE = "routed_paths"
+BUS_PATH_RENDER_WEIGHT_MODE = "count"
+BUS_PATH_ROUTING_DIRECTION = "undirected"
+TILE_GRAPH_SNAP_RADIUS_M = 50.0
+TILE_GRAPH_NEIGHBOR_K = 6
+TILE_GRAPH_MAX_STOPS = 6000
+TILE_GRAPH_STOP_SIGMA_PX = 1.0
+TILE_GRAPH_EDGE_SIGMA_PX = 0.65
+TILE_GRAPH_ROUTING_MODE = "road_shortest_path"
+TILE_GRAPH_CANDIDATE_EDGE_MODE = "road_segments"
+RENDERER_EDGE_GATE_MODE = "auto"
+RENDERER_SOFT_CAP_MAX = 1.0
+RENDERER_SOFT_CAP_BETA = 10.0
+GRAPH_BUFFER_M = 3000.0
+POI_BUFFER_M = 200.0
+MIN_COVERAGE_FRACTION = 0.7
+SKIP_COVERAGE_CHECK = False
+SAMPLING_BOUNDARY_CACHE_ENABLED = True
+SAMPLING_BOUNDARY_CACHE_DIR = POI_CACHE_DIR
+OUTPUT_ROOT = Path("data")
+OUTPUT_DIR = OUTPUT_ROOT / "training_tiles"
+RUN_GROUP = "training_tiles"
+RUN_COMMENT = "Recorded tile-factory parameters"
+FIGURE_PATH = None
+LOG_PATH = None
+from modules.h3_functions import estimate_h3_cell_area_m2
+
+if PIXEL_SIZE_M is None:
+    PIXEL_SIZE_M = math.sqrt(estimate_h3_cell_area_m2(H3_RES))
+if BUS_TILE_BUFFER_M is None:
+    BUS_TILE_BUFFER_M = PIXEL_SIZE_M * 4

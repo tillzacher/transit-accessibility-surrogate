@@ -1,0 +1,8 @@
+relation,supported,passing,pooled_pass,mean_set_pass,ci_low,ci_high,reference_check
+isolated_stop_leakage,3919,3919,1.0,1.0,1.0,1.0,"routed reference, analytic zero probe"
+stub_edge_leakage,3854,3854,1.0,1.0,1.0,1.0,"routed reference, analytic zero probe"
+rail_connection_sensitivity,2853,2853,1.0,1.0,1.0,1.0,"routed reference, analytic zero probe"
+overlap_diminishing_returns,3927,3927,1.0,1.0,1.0,1.0,calculated
+spatial_delta_localization,3913,3913,1.0,1.0,1.0,1.0,calculated
+rail_connection_sensitivity_stop,2853,551,0.19313003855590608,0.17865579430667647,0.15534857640631292,0.22864229351906118,calculated
+poi_reachability_sensitivity,3998,3998,1.0,1.0,1.0,1.0,calculated A/B/N

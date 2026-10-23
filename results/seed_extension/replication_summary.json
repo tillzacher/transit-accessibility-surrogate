@@ -1,0 +1,41 @@
+{
+  "original": {
+    "n": 3,
+    "mean": 0.7367223685317343,
+    "sd": 0.3467504523519085,
+    "median": 0.8868858954041204,
+    "min": 0.3402,
+    "max": 0.9830812101910829
+  },
+  "extension": {
+    "n": 7,
+    "mean": 0.7453356678857668,
+    "sd": 0.3810630898312713,
+    "median": 0.9672683991271573,
+    "min": 0.09094551282051282,
+    "max": 0.9847161572052402
+  },
+  "combined": {
+    "n": 10,
+    "mean": 0.742751678079557,
+    "sd": 0.35148605468577426,
+    "median": 0.943994559923939,
+    "min": 0.09094551282051282,
+    "max": 0.9847161572052402
+  },
+  "common_support_observations": 4952,
+  "combined_common_support": {
+    "n": 10,
+    "mean": 0.7424474959612277,
+    "sd": 0.35565911868451927,
+    "median": 0.9473949919224556,
+    "min": 0.08441033925686592,
+    "max": 0.9864701130856219
+  },
+  "missing_seed": null,
+  "full_ten_seed_campaign_complete": true,
+  "weak_activation_measurement_changed": false,
+  "model_replicates": 10,
+  "relation_rows": 80,
+  "threshold_sweep_rows": 2280
+}

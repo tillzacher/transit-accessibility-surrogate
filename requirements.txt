@@ -1,0 +1,16 @@
+pyyaml
+numpy
+scipy
+pandas
+pyarrow
+pytest
+scikit-learn
+geopandas
+shapely
+pyproj
+h3==4.*
+sqlalchemy
+psycopg2-binary
+networkx
+tqdm
+psutil

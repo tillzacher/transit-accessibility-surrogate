@@ -1,0 +1,69 @@
+[
+  {
+    "model": "model_025",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r01",
+    "seed": 42,
+    "cohort": "original"
+  },
+  {
+    "model": "model_026",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r02",
+    "seed": 43,
+    "cohort": "original"
+  },
+  {
+    "model": "model_027",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r03",
+    "seed": 44,
+    "cohort": "original"
+  },
+  {
+    "model": "model_041",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r04",
+    "seed": 45,
+    "cohort": "extension",
+    "checkpoint_sha256": "231cf64c9109ae2e83be105344857f97b3adc5507404638b36c38bddc629f5bb"
+  },
+  {
+    "model": "model_042",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r05",
+    "seed": 46,
+    "cohort": "extension",
+    "checkpoint_sha256": "8f91f06be2624d1cabc13abdbb67be7ee4a03ebb08856ee0284809d0865902e6"
+  },
+  {
+    "model": "model_043",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r06",
+    "seed": 47,
+    "cohort": "extension",
+    "checkpoint_sha256": "62687c9b8005e0167c25732aaeca91fc5378a111dd44bfc3952918384cc5b7cf"
+  },
+  {
+    "model": "model_044",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r07",
+    "seed": 48,
+    "cohort": "extension",
+    "checkpoint_sha256": "8c18b5350d9cd069ff1b7b71f05599559a5fd024462c489fd922e97310e4272e"
+  },
+  {
+    "model": "model_045",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r08",
+    "seed": 49,
+    "cohort": "extension",
+    "checkpoint_sha256": "572625fa4cf8c027223cde5f954b3776d0057377483b1126a5c167de69d441ab"
+  },
+  {
+    "model": "model_046",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r09",
+    "seed": 50,
+    "cohort": "extension",
+    "checkpoint_sha256": "3acc671f193116d59d5d93daf62604b1cf781018d711a00a7ab99e04db5a1ba5"
+  },
+  {
+    "model": "model_047",
+    "run_name": "ts3_dlt_pca32_dense_ch128_sb_gv3_r10",
+    "seed": 51,
+    "cohort": "extension",
+    "checkpoint_sha256": "9025b84b2779921c50a15d9dd3d7cc129a67ed58d5ff6286e7ab3bb8e0ca389e"
+  }
+]

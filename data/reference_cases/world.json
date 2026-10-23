@@ -1,0 +1,19 @@
+{
+  "tile_px": 200,
+  "pixel_size_m": 105.0,
+  "grid_spacing_m": 100.0,
+  "apron_m": 7000.0,
+  "origin_x": 600000.0,
+  "origin_y": 5800000.0,
+  "crs": "EPSG:32632",
+  "bus_speed_kmh": 40.0,
+  "bus_dwell_s": 20.0,
+  "bus_headway_s": 600.0,
+  "rail_speed_kmh": 80.0,
+  "rail_dwell_s": 30.0,
+  "rail_headway_s": 1800.0,
+  "service_start": "07:00:00",
+  "service_end": "09:00:00",
+  "workplace_side_m": 40.0,
+  "corridor_extension_m": 300.0
+}

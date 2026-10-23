@@ -1,0 +1,22 @@
+{
+  "MODES": "walk,walk_transit,walk_transit_bus,walk_transit_rail",
+  "CRS": "EPSG:32632",
+  "START_TIME": "07:00",
+  "END_TIME": "09:00",
+  "WALK_CONNECTION_MAX_DISTANCE": "150.0",
+  "WALK_SPEED_KMPH": "6.5",
+  "GRAPH_DIRECTION_MODE": "undirected",
+  "NODE_THRESHOLD": "120",
+  "EDGE_THRESHOLD": "170",
+  "MAX_SNAP_M": "200.0",
+  "WORKPLACE_MAX_WEIGHT": "1.0",
+  "KERNEL_TYPE": "exponential",
+  "KERNEL_PARAM": "0.0005",
+  "CUTOFF_S": "3500",
+  "CEILING": "100",
+  "H3_RES": "10",
+  "DEFAULT_VALUE": "0.0",
+  "PARQUET_ROW_GROUP": "2000000",
+  "GRAPH_CACHE_ENABLED": "1",
+  "H3_CACHE_ENABLED": "1"
+}

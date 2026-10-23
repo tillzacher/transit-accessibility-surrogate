@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Metamorphic Testing of Learned Spatial Surrogates for Transit Accessibility: code and results"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/tillzacher/transit-accessibility-surrogate"
+authors:
+  - family-names: Zacher
+    given-names: Till
+    affiliation: "Institute of Automotive Technology, Technical University of Munich"
+  - family-names: Lienkamp
+    given-names: Markus
+    affiliation: "Institute of Automotive Technology, Technical University of Munich"
+keywords:
+  - metamorphic testing
+  - surrogate models
+  - transit accessibility
+preferred-citation:
+  type: article
+  title: "Metamorphic Testing of Learned Spatial Surrogates for Transit Accessibility"
+  authors:
+    - family-names: Zacher
+      given-names: Till
+      affiliation: "Institute of Automotive Technology, Technical University of Munich"
+    - family-names: Lienkamp
+      given-names: Markus
+      affiliation: "Institute of Automotive Technology, Technical University of Munich"
+  journal: "Transactions on Machine Learning Research"
+  year: 2026
+  url: "https://openreview.net/forum?id=bG1yIXRC8Y"
+references:
+  - type: software
+    title: "MAPPER: Multimodal Accessibility and Place Profiling Engine for Arbitrary Regions"
+    authors:
+      - family-names: Zacher
+        given-names: Till
+        affiliation: "Institute of Automotive Technology, Technical University of Munich"
+      - family-names: Stille-Hönig
+        given-names: Louis
+        affiliation: "Institute of Automotive Technology, Technical University of Munich"
+      - family-names: Lienkamp
+        given-names: Markus
+        affiliation: "Institute of Automotive Technology, Technical University of Munich"
+    license: Apache-2.0
+    repository-code: "https://github.com/TUMFTM/MAPPER"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.23557362"
+  - type: dataset
+    title: "Trained checkpoints for Metamorphic Testing of Learned Spatial Surrogates for Transit Accessibility"
+    authors:
+      - family-names: Zacher
+        given-names: Till
+      - family-names: Lienkamp
+        given-names: Markus
+    doi: "10.5281/zenodo.22750422"

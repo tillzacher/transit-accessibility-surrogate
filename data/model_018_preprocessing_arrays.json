@@ -1,0 +1,85 @@
+{
+  "pca_state": {
+    "components": {
+      "array": "pca_state__components",
+      "shape": [
+        32,
+        105
+      ],
+      "dtype": "float32"
+    },
+    "mean": {
+      "array": "pca_state__mean",
+      "shape": [
+        105
+      ],
+      "dtype": "float32"
+    },
+    "n_components": 32,
+    "n_features_in": 105,
+    "explained_variance_ratio": {
+      "array": "pca_state__explained_variance_ratio",
+      "shape": [
+        32
+      ],
+      "dtype": "float32"
+    },
+    "explained_variance": {
+      "array": "pca_state__explained_variance",
+      "shape": [
+        32
+      ],
+      "dtype": "float32"
+    }
+  },
+  "norm_stats": {
+    "rail": [
+      {
+        "array": "norm_stats__rail__0",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "array": "norm_stats__rail__1",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "poi": [
+      {
+        "array": "norm_stats__poi__0",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "array": "norm_stats__poi__1",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "target": [
+      {
+        "array": "norm_stats__target__0",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "array": "norm_stats__target__1",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      }
+    ]
+  }
+}

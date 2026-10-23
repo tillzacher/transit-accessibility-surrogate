@@ -1,0 +1,3571 @@
+{
+  "format": "surrogate-generated-metamorphic-suite-v2",
+  "generator_version": "2.1.1",
+  "created_utc": "2026-08-11T20:19:10.963014+00:00",
+  "top_seed": 20260811,
+  "n_sets": 50,
+  "n_scenarios_per_set": 13,
+  "schema": {
+    "path": "data/channel_schema_105.json",
+    "sha256": "af3cc59bd8f8ea5b8f092e27783b1d27b8338ebe69730403f821df7def4825bf"
+  },
+  "calibration": {
+    "path": "data/calibration.json",
+    "sha256": "1b0ad41c4e9e14694c48b0e2a4f8d271a0380cb214acacee8765bc60d0da0b11",
+    "provisional": false
+  },
+  "coverage_schedule": "all_channels every fifth set; empirical-density otherwise",
+  "sets": [
+    {
+      "directory": "gen001",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "3371ab6c28b9401002ae0708a47be64b9c2c96a7af5a1ae992f336b3ae45750d"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "541f5e392a4d709b505004a36579485c59e41dde3405bb56bc043ad8ce95d5af"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "d81fe2c2d07a1dc29edbda99dc9ac75a2d86732f29a78dd0281524041734d3af"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "0b925ba8232c8ff04fe66f61a3435e7478dfce036787fb468a09e452944d1eae"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "7878ce691f801e193bb34c16e2009ea67367b331d1561bd341878e49637fed64"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "5a66295b9ee2292794c0928fe06bf9407f76508e7ad01d57de9a9b516095f1da"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "e8d34f0e54d70d0ddc956a1e1eea496dc8876c54864aee34ae8f21f1b0d03e07"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "64e676b1c06e15054f303cc3efbac43fa80f060aa70a9e273185fd0b9665e028"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "69f3a29d57ad9269ab94bce0326d7c3235c9feb99a486a493b318f4af8887c77"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "64e602d811e23d53b15d4ad60aaa9683645df8c29befa7d5ca710c8521531837"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "59d09fbd1bfb4af18f06b1fba7b7363c747bfe746a9eb3d44ccba29198d66621"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "80431487fb4cbac207dd1e25f60083786bd5e1ecaae321b7143c1c9922bd66f1"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "eff7a6ee3f823cde115e596abfaa960c39b217330e4360eb25f6d801c308df07"
+        }
+      ]
+    },
+    {
+      "directory": "gen002",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "0532c4cd8435e378127a34a93494390bd99e08b23a6e687ac9663c1f87065d65"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "f898a40338c76622927dc037570972f5bb6fe5896792a0e44014683296b254e0"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "3fd86554aefc99e3970b1b1f1145384dfab99e8f3468fb5207f6c1e7f161b103"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "4c81e902fbfa3379f1e92a4d79d7a419e6b27a843c67bce485055875bce8ee5d"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "6ded7f802b3e89633a31f7db8dfec1d100973fb4c7e517efc32a1f3c8e64f2c6"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "415f065716e9c10a0144fc537948307326de18eceaa3627328425ca6a11a293b"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "d6cacb4d5e9a1913345b67bee7108516fec35334093bc457df191e754497ef46"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "2b4074ab94d409c34a9c5db22368960b69a68a31592e1ec0385d90e577ac47f2"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "2af74be0ee271b08da3e8060caec3d6bfba97ad37231702ce1c40ffa88df8987"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "986ec104c9af0e8084e6dc9f637fc258d22f543c31fb389920e04ba427995ebb"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "77568a68c97faa9a7860cfbb28e08878dc285ee1fcef7fd3957cabb82bcbd3ff"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "d820c4fa00985f24456fa150603e5f91cd1536ad1a459bfd59277e2bf43ae7ec"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "c5f6abe75e44e7f7bf83d38fd78467b82c0848fc0fdcfafbeb944b835a057f93"
+        }
+      ]
+    },
+    {
+      "directory": "gen003",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "0b78bef0c30ce3fd3889245eae2d936be240be38e984dafcee99e09b11d3bbb6"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "76eb1b186eaeebf8f4a1243c22013e081e1a6b4634d8db2e5340afcb348e2521"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "c36c2e9a3ef4b7ad19500bdc83239d40fb10643cf6489250e876d47eaeaa271b"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "727d1616bf5b203d3398ea1fee5d6df144d855435b34f7c227d3fc6e8948f211"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "aacee0b7253422f93b3a107e47eeb76a9e4feeacdb27cc868c897d65a800b4a7"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "19b4260372bdbc53b7f6eb1aefe1550ea1a25f46f37752d2a3d7feced9cf3984"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "eb1fb2ba8ad042769783f135a2d70bac4fe689f6a03c54f5e01edbe6a28580d3"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "ba456f6b1105e0aefc3f6f40c2fbaebaaa3f5eb9d7ba58bccc1cdda1f354e722"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "7701f80f04d0d20f7aff1da2c14d99d85c835659170ee8974cf807774315b64a"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "ca0579cfc2473246492fc5eb8f95153d8ea41be8241bbd1681b44b22eadb6b1a"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "94377d1013ee7dfc9b901e881f0a7726a34a2b205d91e7e439707e7f8f6d1714"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "a74d92fe1d48a92613012c6a859b50423839b21e10ce4bcf5a30c448075a0654"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "cb3f0bb26ff293c7a4f32009b9f50d70f244f0ad1ef3e922d42cff5f6216b585"
+        }
+      ]
+    },
+    {
+      "directory": "gen004",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "37bc190495e0d7199ce003ad2f6fa0638904a91ea37d7f55103621a4d6c7c7cd"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "c4603393bb5636c3b90dd942a8cec46f1153478718c5443591fc74dc026c38bd"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "728a0611eb4a8f23a8142f3241028b29326831d2f5ffa29c51f3b8af67ebe1e5"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "89284cb377424a89516dfbee19f260083ddae77f9c364eaf7a069eba8727124a"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "1b9e2d2fce1dfdde902965c91332730401b9795b162dfaa8b63bca6d4193ad78"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "c93274883f5adf74a2d102ebb5ba6de118606cc803142e8d0771fc9e54b6b4fd"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "77d49fe41fa3a88fb4249fdd8e0ec60c2fa1a0927b0a66b55169619630219443"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "2926b2810e6aec8c6a82dcd4e1418521d570b1d3d2b64dec3d464dbdb3f0c0b6"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "49eb10fdad30a17f223d793078c3f71244044d04ee6b29be843f37a59895c492"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "769eb081d442036b779beaefb60f22393dcef59c72eb9d7e747d364b331e0ae6"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "29569b496cfe6fc9db2eac4a45c31a1eba5c8e65048bbc34c434fce4e645cd39"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "3bc5d975dfc330e8a4708ad8347c3da6c9dc5dffc4b6e488b098327629698cbf"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "2a6f56c6ff6e5ba135dfaa5c46c15fbc60a013da8762e67fb89742106855268d"
+        }
+      ]
+    },
+    {
+      "directory": "gen005",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "6cf6f3f078b5d966378e2dfac5110304843aef9cdae1e0976cc5b7d4467de30d"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "b021ef2e3dc0ce4794bebfe87b7342c0e301edcb2fff65a043ca37946fa4ef0c"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "30900b60fbd10d4f6eb8f232689c506e4b9c364a9161c76d2c151e97732c6860"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "5143b08582d4ffcaa021b40561e8ae97525b811b52e3c2a36b6c49d339b6e26a"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "0b99f4b78bc3b4f6ba39595c92237fa85a169f3ace8fc6d32f3dc5de52242046"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "307aefc2c92c050e40a6dcb1a55040db5c749b5130358999227eebf863edf231"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "1ca30341e7b0937e5e310dc8a55b071672ba398b5892a4a3c10f601f3f5c27fa"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "04bfef2c84891eac056029d86917ba0de23087c2edb2469855e295f34140007a"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "68c646487c0f793a75dc0e8044ffbf8665b24e96f3183a584be50a57965eaf71"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "3a777002e7139881c126acf5d182c2620c6e736c8dde4e1216329c3a7c152d37"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "5220ce526052af46225e096ffa9d406d501dc77683bb40cee05629cc6fe20644"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "472fe861e28b9aa45844dc1f01eeda2e783c61399dc752a4b974b8e8a35a20d2"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "503be851b93b051fce06adb44423199acf6cf3ca38c290c0ee3ad2ea3e4bf2b9"
+        }
+      ]
+    },
+    {
+      "directory": "gen006",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "5db38c14c5f929e6de43ddbd0ae746a1c120b7981d0b308123ccefa6e8d9569a"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "5711005287481384d93fdb963f5ffcb11510ea6f8413baf91c1a006a15864e4a"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "0f04e78bd251603f1ef381e92d5958b95481d819bd3dbc1fe49d79fbd0a2f27b"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "9a672b6bb6c248e2aa914004f8b17186859516282e43801e44352a14e0b3e473"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "07b522b0843b2af5d0d993cf4907fcc11f96999ddf03fe9c59a250e698d6ca2c"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "92bb735f53df1d9427e98f52cc3ad264c54603faf5ddd6228a1e3d1ff1c00d73"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "1cadb28a91d4d1a13024abd19b560d00556040f6b3f489e5fdac8c1eab80deba"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "2fb8682c333d6ca2ac31f709ded2c09e4361fc4fe8eb0aba31dcb6f38233b855"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "60f2d4d5fa3bbd26718883617ad365b0241895dfe00fae0590b0aa872f6a57b1"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "6a589a76066f824293ee3647945e09cee76bc47ca2f7e88a53bf45c75e58ae64"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "fdf18f48e6ea23065e75fb0332c8bc73b2fa98910e0b030a3f466367a9110108"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "8067962568e241693e8a9a94795d275c8d32da2845347a309d64c0dd02c5b125"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "6eab4ef4e91a80fc3845520a06bc3fd82c5562a07ac452d0bbbab70962cdad3f"
+        }
+      ]
+    },
+    {
+      "directory": "gen007",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "9712b77f7d9a8e518de226af771fb0018ed10a1269a88827dba3483a8675ece5"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "baa287781bfa56f17bced1f9282b825663a26cb838138713a7e2cc04a4f0ed9d"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "0d93dd403c4e8d97515c6626cfb68c3126fe02dd0ef77b1b3562e5f3edeaa6e8"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "a7530cc4000626db2f022aa93cb231f1696f4a72cb5138c39f9a56a9e33245d3"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "361008ca200ecae170f0cb4767f4e48b043b7d53d6e7edc311606478709c1fca"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "6406f3d3cb6fa362111597e6c24712e6dbb8cd4ba4a943465a40cc14352ab74e"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "aa175cd0485ea9081ba5bf5b9c72fc829dec5da60f321b009cbdb1fb6313b8f0"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "712328c33d708fef844a0f51096cb8d6dac78a1b2ef9933d0a6a040ab3c30979"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "2e85802496973740fb0eeb8fc35df09ab83d4080c3e6be4bf88f6f10bba47a35"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "2383b421189f095211d108cc0cc431f3d8f0220bdd89a347699513dbadb141fc"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "96c067eabaa4b56adc2197d88ec2246994bfade38590364a8c56f7d19cd0dc7a"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "8b2d8752564588c8018cd882a02b03d0882d70e4eeb576f4822a5005a21b0d8e"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "f91e46a6bc888bcccf7d1761cdfaea9af271ae7795841671021754fe0056233a"
+        }
+      ]
+    },
+    {
+      "directory": "gen008",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "9617db7ea77d07445553764aa571eb07530d31b331252b523439138ed6a94f53"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "3d630b00d67148279fed5cf244ce5918273e20065c01e0dcac8f188aa4e7e995"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "46cec1dc9e8e3d75ba8f32b15ede78e88d07b4edbac8d59ee4be8ea911688b87"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "b349ef90e881197cf4a848adeb921008c86029171e189929ac376d35aa4ea1c2"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "5b85afca02c463bac86db51135da4a44841e69d40d9df7a13a21005755bfa829"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "e748bf2722d8e4bd2b1e9a973ddd87a23a615b03d5ec04e71e6cf9ea279fccd0"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "cd5f5cfcc8f4aeeb3aec9ccbbd999f5fb24a809aefa3bf153e423ce9e20fcfeb"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "1fefcb5da794f0c36a09440bff697ce35699091e162fd116d6d4f7e0e0be57e3"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "80e180ea8493839f17c160386c33430193a9827bf80b986f79e9f2e8c204ff65"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "6ffe006a534e0b51192faaa50c45cb3fcc10e813db119853f6ca46f54b37237d"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "64445d0b3ae69b459a56bc7be6054bc447dae8e6bba9c8d4accb546bdae90883"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "410326821becd58a2d942f00509e8753a9c712562788fb8548b1adc4dccc97ea"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "5b943e598886eeb7142515436a40cd308144d7a59e8ee0b17557778e360a45b4"
+        }
+      ]
+    },
+    {
+      "directory": "gen009",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "9bf4909b1df36f5283d8aad79df5ab910da381f043708897feccfab2ed699d99"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "90018112e18bae4f2d0cafe2e3915eb4f6e506610bcd61ec6a72b5b972974539"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "e552a680534840e4453248765cb88282e3e2993a41ccfd721083157ad45e71e5"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "5d94571b9216e31209b1bd73bc4b879ea42dcf75b2cb703591b9c41eee8a4249"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "0701c7fe2e7fa37be8ad408a84c4509fd1c74e6b6c7f56844613528dbb10ea2e"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "7db5290c90105d675dac7206f122938375c6b2f72ebd2d56ae799d964f8524d7"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "b8ebc9dfdf77d698d773944b855c70ee0f09b074873a13f79c05a62fa5cfb548"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "c6b4ef9f0271c2f92382f3724c62a285aca6ad2d7305f5d5aacf5861d943da5c"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "ca14832df5de251b13cc450320c93631b49213f2682e93dda58c629bca6a3531"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "e760411901ad69d3dfdc4e4f530b78f62fc950fa7f58ecc9e9f89a92b2e96a24"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "251a9f6cc870f84ced0d7658d9b1a678414b3861314f608b02dd7a4f24300458"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "09791f613bc367eb0fc44e8481327ccc8b5ca14bfdde952144ab24a3eb5be9ca"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "631965bde1f33a4ff5aaa8f773dc7152cc836e425ad64ca7acfa0abfe43cb1c8"
+        }
+      ]
+    },
+    {
+      "directory": "gen010",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "ed858fae4552871197139f87d0e627bfa381f6e8ba904652cc22709d1d256393"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "39d926dfb1bfab03154e58f02d915cc2ba60fc48cc3aa636926f2701f1f9bf3d"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "0a232de79650673cb1ed7949f4f51730531bc312c5506a6e1f05d34d70b400d9"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "97366d47b52a8da030cdff457cc7d70b01d55d8c39d9b8e327d825b91d3c9157"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "4bd88fe71b94e02ffbc6bf2f038a414132a6eaa918275cfe51a355a02d1c6496"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "3a1fcd385760a93ff5aa8c77ae99af0af8db1388b38d57363add7d05ecf37afd"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "21512e81983124087ab8c8e39bc75edfd6f4b975f9f66cb69b3d882adf584750"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "6526165cd1e331aaafdb0bb593c05ce04241dff82c2e57a1cc67d714b1b36554"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "595c451a5d5d8eb82037ec618d6be2608730d95adf7d8c1178b8de822f81a06d"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "f158d197d9c192c5eb2e0b0c46f58c8f4db9d237726a1287b4cb22ef98f88c3a"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "627f40d2653f2cb0d03cf23ce69b2d4336a4b1b17784aa66b67f38982c2b5ee1"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "da11b9dd6b40d656ca40bf2ec04c714ae07e05d9bf7216c67084355d6d2ac61f"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "a1416a70580f1bc6c695c058aadbb57755b132b718b6c97f4917489326c26cc4"
+        }
+      ]
+    },
+    {
+      "directory": "gen011",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "b54e634f10059a36a447a32a5f9f58070c996fd4ee98b440bfcb946474461aee"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "16b79776f88b0e6df7b2cb1f722f49bedcf22cd85ed6f36c6e2507c426079edf"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "fa72e48b5f3c328405ba21aa46ef9b0ccbc14e3ebc2ba866fa565d9b1ec799fe"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "3257ce3c67288b31266f69f441e2bf70827b7821d3cebe67595bde27acae3c28"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "958239a62bce45e54d9da675815196eb4939b8ee546cc7dab47b22f3be0f9479"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "54997bc2fdabde0c374f0e4c423b0885f9dd45136a570d9bf4008d75ee32119e"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "8463477e7fa284982f378ddc0fdc0574fd663e001752b2df312de7094d7fb42c"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "fc3bc6e54b0b637a0251172e9429fe2e8eea30a3327451cb318b04e21c6ae33e"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "91f600a1cd796035830380b3125685b19046898751c373857b33accaa119a9d2"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "6fb75174dd892c266d481400181dedc3a82e3cd236b007a387fff55e606db714"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "a1ae66b83f256485c7545a3a28c4ffca5a166627709b0fa0de203a5537af9af7"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "4c884812238953e03b3b96807cd5994e7a1b397ff2f98164e34776e604b58438"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "7b5c0a72bd788d2b9c16c5cbf94feb4af2b877538f103eb20268b8c1c80ca361"
+        }
+      ]
+    },
+    {
+      "directory": "gen012",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "c0cef519dc7a92f8699f1e2b468f72dd31d09af730b8aa6bd0ae90a8fda3d4ff"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "b49e6cf5592fb5d53fc02c4e6525c2ad74b914191ff3f7cf6041e75814b060c4"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "89b93c4afca443a551d4cab671f5edd15f594916f2ddb426eec45897a9281b84"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "3f152407d6ee67f99bd889ef232da4d268870d96a46131ae7347d702aed7c659"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "d79979cd9f8d11077b2115466b85a8cf086c0ca4ae0e9891d489fb5131dfcd4a"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "c8c0be7693ea016b8567f731e9ba7562abcce9fdfb6e2b7a0e067a4746aa067e"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "7315981c96cdff851506142b80b45158a4915935baffc013ee16407112be0bc2"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "8527f1464e2e78d285d6d3618eea72df19fd699a4f7b6a9ab83dd02e1309b893"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "f0c5bbf79b0756f411790020d13311d6c4f698f509db9aa24169f7e3f996c658"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "c18f797d6e0abb4513a186b83c52924926a26e2a40266e51245e7bd59088b63e"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "86e07e686eea51c7284dd8543a431ab00809e72684efe4d0b737e1cd88fd5d8a"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "d6372f59991b0beedd1e731960af83b962ef0af335a345a35382678f53511276"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "5034c2ddac9d313ff47fa3ef7aaf4bde156deac58beb945345de162833ba1214"
+        }
+      ]
+    },
+    {
+      "directory": "gen013",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "3c6a5e8068151e5a795bf2fd7ae77a8626febc7875fb4497ea5e294876225821"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "63436b94da77fec2af18a93424f4dcd14cc02831381c2eb2b16bec24b95913b4"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "00ea59a4c91e562571198a55eb9170f0d31da76fde5ccf86b56cb0f8f855237b"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "2398dd6be95f1f10d59c5042ebe2004a281502b73ec690ee866ef3f354708d50"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "2779b7288bba574b46324969ae135e8163e3f2d709b9f7e4cb20df8f4d87ea3c"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "9cae723b62647d4130a6ba9568653d0fcda489e27399247f50958b4f826af5b7"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "a7a0cb33f4a26941262664f00b79b9fe6e6897d38dc5b2c8c78283f6793133fc"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "000fefb863334d559c1940f0c537cd7c82d2841c1911295da5036f61d5f6bbc9"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "aee933bc3e504ffed8cacd7e88527a587ac152a6973fb1ac316d949c385f23ba"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "fa120162543326a0ed75297147c061f29e5e456ec13df4ed0603f9ac9a98772c"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "c37874d11f30eb48be76c143305984c01bb1108a741c14002f3b4cd0cd18dbf0"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "7781ea2327a2b854d8869bcfa24e8adc5375fb4798c840b63b568b7cd6883839"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "e1b66353284ee9bf10b99caa9a7cd2c431b4367bc694fb162fb4dbe5bb71856c"
+        }
+      ]
+    },
+    {
+      "directory": "gen014",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "3d693ec8cb61f21e28f0c7bbb77d5d8f2ab6fe7eb6cb293f87fa07f885e8ffdf"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "03a81de841062d301816980eff044f7e578c26434fda796c0871e0c65d0da423"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "957c1f896ce557105b4c99e16185682998bfc9eb90275e0c16b08d68c7a9ab7e"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "2143131de2b11526b66b1c4da1f4d364dfed852a074d60577ad122e436831000"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "0328614ceef9fbb980e93ec06462b40fa8d83ea2bef8c9b9109e5fb3a9804ca3"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "f13d39d9a4fa1d304a35b098b05135b82f5166ec88421030973720e0c5152eba"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "f295118024aff490a06bcc2665d3f5159f08787d82c875f79b25408cf3020aa1"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "8b10de1332b97ccd9939182a071d5b7973fa448b715b445e789700ca4c87743d"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "f0c8229a160b70b2d2e2a46b9ccbed5c68737d3817f412682605078c35e4691e"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "3667fea641da77b37bcfeb60615c515d6c5086571e6cd20417bc3505b6605603"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "2cd6d4063d7cfbbba6f7e7f79b0d845193997605ab634d8352e2f894d094f88c"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "41443d784e0ca9848b65a1c952094aa23c92e0c67ac107d9478c7860def7ef06"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "efb22f54ad62b0259e943adaaab27e9cc0d7e374712eb69335531871b9e78e21"
+        }
+      ]
+    },
+    {
+      "directory": "gen015",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "8f7f1af2524aa57a4bf987185810179a35b5b5b7fbad5b881c4b692cf508d6ac"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "020bbbfc4ff13f8921fb9985996165860b9ee7e22a1c5c4593e4af21b246b0d4"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "fc2f336ab528439a301121638fa89b981d2d5a4c46c76fcdf8feca75c699dd05"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "f194d68315494a20ada079c1ac375996950c2d74db1222e487ec1f4da99c85df"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "43a77b446a9710dbca31ffcacddb99e085806a891c01ec33493cb4b8a8077c16"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "dd14ac3e664921c131db504c4a6b9e5471ea1ed19b46fb4426ee29d7ab24b2b8"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "696237e00109ac04dedb06313722faf3f620dc4e481d2fdd69c4ad9c95bb6da9"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "6c6c4c6f9747cb3478b36beb8bfb589db00bb07a088958cd0c728c14dd8d8690"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "67ada1376cf4bd98e2e6688e10446256fd38a5b910d37557244c198252a03595"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "82bc2fef0265510abaadde26a2080a01ac7d6e926cd2097a3bdf6d91262f84d3"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "022b2797f276d0c673301837521a7e580dc42508cb649e058e3b9c0ad9812de7"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "19ef0d15c374f5798d321538afe4aaf342d43f21edae861984b4c2c9736a19ff"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "ff279670257074bc2db0d0a8e8a8a2e48c3b67eada3979193690ff86b3e968bd"
+        }
+      ]
+    },
+    {
+      "directory": "gen016",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "0ffb6407953360975f771a3d56c61047ad70937a682871eda4cfd4655a489d00"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "291ac3deb51347d28a72b9d7a50dd4850f6bf89756cfea8fefdc6557e5704ea1"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "207ed515b747e5a8a6a06a4961e5b7cf7a0a67cf4d8d4fce52a72967b20696fc"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "c514ca26194ff34ea7a4506e16b599a8950e9f229f8bd0e722215d1d27db40b2"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "f238b39a8f550c63722d5670bc0ed70297b48160aa7ab35f2fca02f4581c8f9d"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "aeb8dcf431b54fa245a6b19fa09b0eab7ed18089892b9f9884834057b94ccce9"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "6ae2bf02e2abcf4a4f15e1bea4318ad5375d95f200c0af3f584db8088c338cfb"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "b8af4986ec93aabbf7833b7a8c08cc8d520652c9f2cf974cfdd8d9f75bf14145"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "e40424f817afee95dddfdefd97d5e78d65a7e8f4395839052fc04326213c1a9b"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "76bdfcf41bdacf238825c4c7321917aff125bfbae570f5d3693dae730992e605"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "f8b6bc5c820112d5d3c9f0f0cc83e2e30bab82af8411258b6d5b95298146ef39"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "b46ea1c44b318d454f0e04356bbe502af76c049d2b33da2380a37b40fa30204e"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "e29f30412721b934c6451757fdbeb5e4a39f37c9446e373bafd6a7aa0ce06ddd"
+        }
+      ]
+    },
+    {
+      "directory": "gen017",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "0a8e70294ec6ba4cea2128926197168c91a047333b61eaaf3943b63fea0e87fb"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "6d3dafc21aed3bba0da2254a7591d42ff80df0d567157e117cf26859674cdaff"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "5b9c8c8dc8ca6f6b9633e688d0690af6105ba3b5ebb200b097cabac5926fcd68"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "e5ace5f1c5c8ca4b55694d9a1f21501d48f268ebf2840424e93d52d6e948607b"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "2934252440df706c37d51d566c17e4220154c44ea7a00b96a89b8e85c73877ff"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "7e49239272cde5a65fe357c8e641441d4f2b05dd8d9ca778023b4eea5341f000"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "2c8b5ac52fbd3bdd2a92538db5cf771625043a3129ba8e6298302163c9f38c80"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "930e00a5bf29e58a976213e3a3c5bc171b55e0d6ce9e06fa20dabd560fe0efd5"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "447966c4f710b77ff18a883f1864af01b44a5a374cb3804a3a148507c028b321"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "3ad6e7f7052dea6132ae578e342353380da34973889f43d4a78c30319de94db0"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "22d3ea23cfacd19e2fe8bf6a7d8c0abcb65e60f88c27f8f170d8cb217ecb76ab"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "26ac1433d52a48d614d9f46c75a53aa410342d5073113e1718a0fb2c855eddb5"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "9ad10a8fee5b58534ffd113d642dcad9a9f51746919d630c7dfe12a77af1b25f"
+        }
+      ]
+    },
+    {
+      "directory": "gen018",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "60625a2632c86ceb0ea83bcceeca1bc6f60ec6ee61babaae33a3fb9caf8184f4"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "d79309e52407aac8045d45b59b87a5ff708bdb714df84fa3297a252fb7450ef0"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "0b93c8fe192f748d45b6d1c1c1061973b733e99760db4f5cede664aaf134bd24"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "190cb5f4d5b72984966845f6c1d95521b0a6d178ffbb7151e578df15efe90b9f"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "e2d4d0db3090c739fce9789ba8ac7d5f9a59cdf440f02ab57a5f1819087f5562"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "6db5786ce13488bd187dbbc548016a3f38ef1bdb4eecf253fab740a039853e73"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "41e30c4ea05ca336c402556742dffbe370a31c2f00bc0c9e80091f4b43874eb7"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "2894bcaf5655f5fbcbc625eac2edacf50ea0256bf72a800e9f957dc8eaa270ef"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "1dfd9d316bde7be2a88b4e7d944d3bdb0a9f6c5929cac6d344262b0497719e4c"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "fac880d469cb0ac0db631613e44d5921b66c86bc024cce6471a5637825a23338"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "577877ec9e0ec084c1a8bb67b7f9f95696acd51944a178534be323d4e0a80f79"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "68c5dac7f47c68539cccc212029772370d899e3d762dbe5fe9477f6dd2aad565"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "b58ed7c8c8f33bbafe3cb7950ce3df14de8275853673227f6882902fea014ea7"
+        }
+      ]
+    },
+    {
+      "directory": "gen019",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "bf50156ad2976eeff631d80da5b5c581ed89f2c0b23e3d98f029da15625b02a8"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "c6182ca22b700c3b54d3037f304fb467979a2df0e0ce24e0d7ac07ecfda284cc"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "81ec9b78a26668bdb925aa39f04b4f8c2dfb13159c1261f13837a99f95d263a8"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "0a7c19908af819f3e7213480c93529b6798aee696ad02b94835759e147c2a8ee"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "2f5c738bcfb5eab07ca0534a19bc036144b2f6f247e9e024add801820b844398"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "0c18af2d8c6599efc4cb75b363b95d9b4f1bf4430c0aac3c6334216e723040f2"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "6e91814fd8c57019a2656f893cf29f4853ac7bfa7a3f6f2300ef12d4b2d2e4f2"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "2e16e54fd42c90799977b9e2cf9e708f4bc093cd08e6c5eb102833d3ee1988cd"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "faf59afde2ef058cdce5eca1c5fd8c17fbf5c33d20227506651a371424a9ca11"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "07ce9ccf78a264e302dca5993a024ea70dd21880fc8d72e59fcc5ec5255a1799"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "bb27f6a2d1e02bec361b894047fada368e5a66d6fc0f14109c62e813f51cf264"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "f985c1b16233e7d8830618a95f2c782f2fb585aef228ff77cf72e631e06290d2"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "c2ed0f99056f4215b9c0aa110e84fb95d7caf8e0b3d6f7e9361b595251ba648c"
+        }
+      ]
+    },
+    {
+      "directory": "gen020",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "9c3ff1f5e84a6e1a57acb56e99575d006ec3a842ee6850e0a3706dc15bb195f4"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "ca670877b8f6001a4e5926216d4a23edada02faf2c33b0e303ef675293da041c"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "457897bec0de0e5b5d820ec835d7201ceda99a7371f9c231fb88899dd08b5ef2"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "63c4057e77e06c7ff04d5c46aac048e26e286ccbb21b33bc4896c09f93c96d78"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "43f4610c2f0909a7c7c937494bcf47ca903bf93395ad4f45d4e8502a81ab2765"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "0c80c707d626e56a731cd3b0960d61221c0bc15be2bd3c8ba975815a750bf2d6"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "3800daba99b4f6823195e968f22204a46c2e3434ab62e6365d10a420fdb330e2"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "77cfae9a401f61fe78595ab617b5bb1f78c7ad68c87daddd6a2f3d8fea6472f3"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "b507c632d5bb5cdca573ab96530229246124d925de5e94544eb79cbb553bcdb5"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "5ce2e5ee3545ec540707506a2ca4f663d44f0841d33559006faad6d81545e2cd"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "3ecb096e358b0312468ae2b746f84a5377bfc8f0fa2a1e8db97255ecbfef1e76"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "6311ee37bf72c26c9cdef152386a1bd500754a1298f946225a6ad97bb9e54e7b"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "2e93c7b1b9adbbcc0776ffd4276093f2c344e48d753e18cc6f41307b24b92193"
+        }
+      ]
+    },
+    {
+      "directory": "gen021",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "b85fcf5124a6328c8e3bd934065ae10b48b530c15507da45cb515ca339d9cb72"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "6d7eb2c502ce78e8d03262a3489d306f06da7539bcf030747aea4e80e9938fd0"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "73ca9028576c2c2a80a30a62c6301a496ce2c3df1980c779fd9ce798ac7b1b48"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "7c654b35ab0c3e0732acda97cf368885200bc314b9b1532a19cd3812f57261dd"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "612c5128ef36353552ab0394ceabc0a8ac31be075b80a85bda87baeb2df0d14d"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "8d26a0f5fbbfcbe12e7a33ec37fad84b974269a4a4ec9de128ec5a55279d22ce"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "62750732e569bd71a6970cb42e9ebc8c074e580ed5d0dc00a237e22e77b8413a"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "57e428700255355a600a0f411262b6b1bf0f726b57e58f7d931bf218154ec662"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "690b4162fb7791daab20e18590c90985da405d2b7199ec050b2b997c518560b3"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "2acfae23c741ab5f1a0a549e42a30d5ac2c5ea67b1e8355cd2dc9a4479ebae67"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "ef98707dd707f0e7629953327fbbb0381672f89afde4cbe7d42ac2cb5aecbdad"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "a2d3ab638ce8aeeed76223aa86d4103c7c3e17490c2d6adf18c15f98eb0738dd"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "8349a04087bd46575ccfa39205dbb049107bacdde81afc86d87dd978eb321635"
+        }
+      ]
+    },
+    {
+      "directory": "gen022",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "a038c49f7072082e391d75e85e258932f1257c64a6c9ae6346a6ca4a00d364a5"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "cc68d9f7232e0152ba36db0f55cd1067cf232f0033c15ec2c0a46a65a0b89c1f"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "44a00facea267ea0961e2065332271e1d2a39c6a8fe06e70075e36785b9bb39e"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "4845405ad44192f5649586126a530024de3567cc4bccf20cb4afde9e11d849f3"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "6757078fbc83ceb34346fb155978e04422a8d7264c3195d7af3e7e5f92a0563c"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "798ea053b075b47615f612b52095083ec1c547d83388aeb318ed56e050f6c9b3"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "f4d24b608551b62385e25926c246e3b75a42b3b9997b3bef8de2f612378e1398"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "bfc36f3d57f81065b3c1d2274ac84d20accd2fe4e904c01cdebf79f7b860d8d6"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "ec190366148bc1bf806ee3413c2c64242cdb4bc80889fb7fc75e39e252835dd9"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "fd7c4485727ac2b33287f39b4b621cb3abfab127a0627b5aed1c35dfe2517763"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "4d00df6e6bf55c607e70bfd1d4d0bc9c8d229ebf5eb737252747e4e2b70e27bf"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "38ceb316dbe01fece2094d45bdae58b7419bb89abb9eb987d9d9329b55e192b2"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "90b8353e8ba688fb2117d4b9b86e1a20fcee241e4a724dd2904e91129878674f"
+        }
+      ]
+    },
+    {
+      "directory": "gen023",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "4643143cf20b84efaa6bd9ec090e8a5a9637c65765bdb62622983aac5b9afa4a"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "3950bc4603271b59d784383aea9b1adfde707db5960c2706196f624e6fdf41b0"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "fd642f3046392d564105ff7d6a0831a6988707e41cb75366314630f67743b90b"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "7e056ad8ee2ac830dceb8fa78caf17a4b537213ef4f491bc318e071c91a5571f"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "b970b46161d65ed5e14d2f274ed6be1a6e55b7fca862c2339e44226a47f883db"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "270d349720c796ba95218b7f3a326fea5d5e1bf44ccef929052f24300afdfe4f"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "02b183443f8792fffe13a7ab3f84eb84c9d15b8280dfb79fadd19b81ac89e873"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "c319336f9fa369c578a799cd7d9f4cd95ccb44cb7b0e80cf5c80b4f575e9bfef"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "95ba41f1fb8234e8b1a939a6289b9411f72e81c2b818f608e553e7b3f87a2dfe"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "d0cbbe76fc13575fc62f55b38d994d3b9c40d8f9edf2b7c3fa10758a4c357b5a"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "449d1c8d722f9623f6bf2b4d7eb8e8651d9466f59ed310a9d52af619650b952c"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "6550f78ee4465831a759041cce755e29260ae381ee2e3ad99d3a6437776f03c3"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "fdbee1357721fc4a3123bdbe5a85390d3c4c441215ea5e35d3706fa957270728"
+        }
+      ]
+    },
+    {
+      "directory": "gen024",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "f83e63c46fddc691e2f3d5d60e2d9c6044de8a30b9d23352c0003183932e45f9"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "74f20cdb08ddf8522bcfa412652ce29db48346a4377060f87de74547d4fff592"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "e1fcee626fbecd66d4ab746f43513985ce5839dcc8eb118b4ea56bf75106322f"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "7ea98ea297de1c5f1116349015a77537ed99bc37ae1ca83ea3c13438f43abd9c"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "9ecb1bbcdd347dfd91401dc8e4788c05a6eaa0a7ee35432be42cdc6d895f0a8b"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "6483164bf5bf638fbcec836699ae665f0f85d8c7953515ff7f3262751b5f8e95"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "f3e96cf8d9d734d9e0f0aa20ccf17c39bfd4f95ca775d31f53c0564b72079ba6"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "ade5116d94e13885f0250ce8693325a27eb8e54e840d959730c1daae11fb95eb"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "dee9f8e3a2525eb6b296f92aa7a63fefe1de7743ca52a97e71e98dddf704d01a"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "e687d67ac57a13ec96389954800f1444dca99e0d01479932406fc836d76202ef"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "156feab3dad3bbefbf9118c093b065489a675f9994c3a2aacac80103df900ede"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "8542c92cf4dd1db13988e637257cd0f3ab4c8e6d9c0e7badd7218d0b4dda30d3"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "c5d5e6a7ed4d2365f477e33971d26cfab936b53b1ef7a30ca1e395d2f044b01f"
+        }
+      ]
+    },
+    {
+      "directory": "gen025",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "49bed056f9d80aae10ea669d8f6bc06a4051f52194f4580ff3ba02e2e5d9735e"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "1c76e30a593a669b8d0d56002a0b3dbf92e44b562cc631664f39a70245aff3bd"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "65aa1437abe2a07b84b9bc234c47107547b8660d3d629cb5a0cacc7b610d8dd3"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "e2a7a9f68316c7f426ba7e3ea4ab71330bb25fbab5c104d28635ecddd1aba3aa"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "d922a9b133d7beef4bf16a92728afff82a0c836cc292bf540afb167f616fc19a"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "8c735dad6a5bd390c402c04aa9b1afb364e9d2583b3097a20178d2e2f0586bf9"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "f63a25c699441723ad4f83f7cbafa3b6b4875130ef3d338d9878289793b62d91"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "9d9282c0a8b3a0b8e8b7ed3046dc225c60e861c174506d058cf5dee866be7b7b"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "c34c2375d81dfcc54a2ecd6d732fb751fb3995c353abf7229ec58a08c24e5b5b"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "85155cf4a9adab0fc8fa8243b183718f86a0a1db0623356e5c73238721b7905f"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "f2026f94436d73d349c78678ee8641b263b13fc57badf03fb2671b60b24244ed"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "38a56505169bd48c7428c451197a8b8ce24874150e902aec7524fe80b1b00035"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "e255c39df4df4d57fd74508468d724737a53dfc88da51b27dad88f60149737a9"
+        }
+      ]
+    },
+    {
+      "directory": "gen026",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "98ceeabb789108c8fca932df896fdf87e7aefffc7da0ee712cc1e4013fd9109e"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "bd52da994a9df3bb0aaa2450eb1542b9deceacc9d3cc00471e53271bc3ecfc1a"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "1f9bd878fa32dbb0b6d51cd2e89ecd6f2e715f379f1853b9fc366f74f843ea8b"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "7dd5ea4982c716647f8f02b31d9b43e559761bec28a2c1c60187f35eed6429e6"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "361a58680c1b69677a47633f17011b114d64fff4ef69d7ebf59abfa9d62c613a"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "c02978b7000aad507d50181dd015551c40efff98c91e62de9fcbf32c89d61237"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "a473ea677dd780ae27c21f1a97c58bc8593346d6b0a21d2621a41daadba0684f"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "4d67f437983f88fd38b097e938d70000c0e8347b0bbaddd6f4a80e4e4195bc44"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "d4ae8ff40bad4f53a98ac0c03f2223b01ce54f5be2dc4c6787600ab56755059f"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "620ca7013f45b8dd645721144cd67368153ff87842f28a593c516921cfc89925"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "5b5b1596107ff78e1b9a34d4d0780410eb52d0fc6dc229b327834b936441f25f"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "45733f8c9dc3cbd94632b9a038d7c2eb670617c7d60a2540874f7cb1879b78b4"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "a6b06ea40cd65ca4e94e0073c2ec7e3fe30e4a81be7dadb2f42d7aba3b63946e"
+        }
+      ]
+    },
+    {
+      "directory": "gen027",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "16e0a89be875b72797188f3f61721fcdf383beb7c01deebc2529854f68c2c738"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "26e195cfcda3999a552f64fdb5b4eabbb08b3d3205fd7ff47af29bc7436bbd26"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "03e39ed814da976b00b1a1768dc2dec2d93019a09e08a9d9bfa52e4bd39beb8a"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "094ba9e96a4211a63487f1172b4e76d8efefe58366fde55f075805510ed99404"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "e896f714190e812656a0c2b5a1b3b9e9539b04169975f5df12567d85fcaf3a09"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "d910b6836ddab3cb7bb8c1653dede199dc9a7f9009b20e0ca3e3ac4869f5b27b"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "aacb955508703ec7d434fbd083c0cc88c411e10287383ad78b002c58ee184aae"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "9689bb13d02a9acffdb63b9e755db090f2f26cc421f8141857082c9ba2c385c8"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "517e0ec4ef5531e46b365b487b3747a2b55b299bc495a5e2227ef377972aff25"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "8785b8cd01e3bf0f3b08bc6ecc8bbe433e956c9684c9fc1f97a64bf520ed0b13"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "0e374798645a164c13b866bf19b79c3baaef2b7b7bc715b9bc06604eda50a385"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "39d72f9522f19f5c97f2d113e608b89290762cbd882e6d689eeffb9e3c640342"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "327ef3ebe7432c8c9e95d2fa1c2da5d511ce1f05415088ac991ab48f726b79f9"
+        }
+      ]
+    },
+    {
+      "directory": "gen028",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "b011b739862967af0b120e2de15dfd3735d7d782759aa3211bb2c728043d55c9"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "9cf6956409036fa7c348cebf05283c8f5c63ad7f2e4b4868ac9fb463cd84aad0"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "7ca5bce60625a3d9762e3bb45a027f23d515fc9f4f2dfcd19ee36937814807b0"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "424477f1c423461e5832ed339eb311b9016bb39d524a2838208ccc8c20515ec5"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "3921759ec9350119a543748b683fe5c27e3c33ec0c1e33aaa024bccf65a3bea2"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "a347c0ded936195b32e4f3f99d6c28e4413c2c79c6fdf5c034a5a18464db1b56"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "6527f19dddd5951d4ae85d578b8e50a508aaa6fbdf7ddf6b5967606412e8c94a"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "aa3b8735b6489b3812caefb09ceec48850a6f47c8959d24b5c3310ce279580bc"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "d1b3ea8a2962db5be602ff66ad3ad1ce3d8341cb3eef0cffa4fa88efb7f93fd2"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "d2b261ef1c2fad9afaf16f9c1d972863d2552d1a5b4dec8f7ea57ebf00742866"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "ac4397c28d72e059dc75445a93bb2e18764371b2eab555c3da3e9f4e40102232"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "429768ad11a61acf0c88bb1c4911c834452e7df7a6fd1c67243fd75f30446cc8"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "989e6fc556f984700af65b79da3e16f9b882cfedba45e5620df81e9f34349122"
+        }
+      ]
+    },
+    {
+      "directory": "gen029",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "3a343d394ed03bb7689383d6d759bfa7fb9decb9c365c2bf038681bebd8d5efe"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "5fe7d67f5f588bf7401bbda1cc14e3164f9033d14958fb90bfa51bf44b46e2e7"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "2fa5454888c3bfbb0b1aac5ec07a142ff75d2ebeb48aa58dcc10b1ed50add052"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "bd75ce0c348c9a7c89ff58dfd334ce3ca2db1502bc768a0045f00af2cff63d6c"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "1b0d9e163178fe539ac9e43e492df1477bd0ec83ebff697d231500fd5ab2e030"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "58c5a9c8cb592c48285c47c6d39ec864fa384a38d642075d83cc2f0a2e34f2a1"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "507b85432fa0a6eb4d016943b23b805e2e2382c72a913a15fcab7c564e59a58e"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "71a1a0a4c994862eb39ffc777bd0f2e97781d199a3eafe69a22c0433ef320dff"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "015132b3ecf3201d284eb43b2006ef92fcd21c28a01c236d0b52f1af030c3996"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "2a1512e0c22617e4f4fe6cdbff03c7742ba4d2d9757ed5fb4cab78b726d624c7"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "635560fa8de5d22df5b0e54047743ca4eec2deac83c7afab2f0a76563e961f6e"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "921b342b8fb0a6c6f41b895ea0fecf891c8326fa384ca971c2b3ab542695fa8e"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "eccc9fe4b56a06377c533cea3f1dd733cd94c747036d1f37c66dd380857022f0"
+        }
+      ]
+    },
+    {
+      "directory": "gen030",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "5d31a3e7df1a11c5e01562584b7ef319aea9d3023371395fa1e004fd877a4caa"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "5621a5f1f357cf92a20fc22ecdb2d70bc1269c1f2aad0e617618f05f58e64ede"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "9cc438a063924cdf371fe28020da439a6ffc0a52d6d27da88c2a61b3d2c61e82"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "f2ee9502f2b27359fe43f557620b78ccaa7e76627ecbe7bbb43447c215f37d7b"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "7db2261fe3b6b9c5debc7adfb6ddf821bdcb6bef3b48a71a6550dffc9200bda4"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "ed7a0193a60f8ec6ab9acbc999a32e7041fba81316d782abf63cc1c4ceb31aa1"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "59a5dc4809006574557fb27c21bdd215ed1e3f4cd7abc3bef8627be2c6ec84f4"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "7c0b9fda891a812bf1249a666e0b59dff836384b4f4e974edaf72d9bf55c302a"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "5300a29d40eec0c8396b6d4e3622d92479308f071453fc60101b3d93df7ac06c"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "20797c4e8d84e162024f1f70f899e35ddfb2badaa8772647bf8764c888cefb4f"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "5d1d1c5a0b9bde13add60bcb768e3fe1399f27c51bbf1d60a12050083886655a"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "3c0ac2ead9d6647dc4bca1602733ab5e43656f731bb6cda074de2e7172e09eff"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "00da70724d2f1eaecd3e8c00c3546c030941bbc18728a05ed81ac43ea1464683"
+        }
+      ]
+    },
+    {
+      "directory": "gen031",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "cd125dda036e268199cc58d45eaf061a562b598e625f7a88d76b96478672e2c0"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "e8289999cf14b8435b0ae3aead6ed68fa917fa7206ed5781f90888acd1b8ba89"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "9bd2c2ea0eee4946a9b0aa17f7001a10294525788f27aeada704fa9b0e6b0414"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "2dacf08d0eac3eec1e0996bd8d29edb3517ca81108c074b82f1422bdbf1ecf00"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "2061f98d1b52ca5bfb1e79b4adecdcbc00a8738776bcf05daedfc6fe89790ca7"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "57c341349f4a28321c28310f523e0073cdf1758997a9bde5fe8da24ff93d3f63"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "c58feeae16ac1034f109289539d0661864a66f79bfcb55ca15d18fe9b2c53bb3"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "b12fa9689d8c5c9e20ba5b5bd1b7eded33da09abdd0432850c20c518b6f39dd8"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "6149441c6471e2f15d487072e0e1636841a25b10daf520bf8b560d7c92d0d2f0"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "1f29dd84d8cf0f44454b210cd374fb666d3758c99402bd413d17392545a7b057"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "df9e1e960aa502aca46d4d6a771dcc61a201a61cf933a4c998631870b7855264"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "36d38b10e7ac49e18b8644eadf81f28fe59a6196c3ca3bdd519a0bfe575246a8"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "b83dc86de91d07b0043b04a6160f0fb3ec1fad17deb8a7e505ff8b574ba7df09"
+        }
+      ]
+    },
+    {
+      "directory": "gen032",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "30764820ddaf5643ef895a4402d7d529876a63c2929114c0c4e9f189094566fa"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "0469cd1cca32b8d6d72497e44c238e422bb903843d6a8b07cf539d07fde156c6"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "42aae334c844d3e7230f75d3f11edaae29b3023ef8c5087851b03fc379332298"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "98a3e588f57c9616180f19570d322d67e46b2852a38f1b9b7c2cd56d8bc115a0"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "f8937533b3f5fe37fc5d5b3fa2ebb0e48293ed1d7f34d483fd647209be704fad"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "4765ed0787a1f03451165f22a87d4a4b8c9b3eed48d0c4baad31d1bc79c1ba54"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "d3986f3a7e796caf085c84976a0de8a45a2db1d04451e19583bd95fbdd993eb4"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "3c2595cbba1c07ff8f31a7cf943b96bc28e9b18f3b4f99aa03bf4bc38b052cb2"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "2bab83cb9d2e2b0a99fca3a758402123c8aff3ef6041409c6fcd45931d23ae81"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "d74b814ebfcf10e85608aa455a518bf43cdca2f0b6cbcf44e501b850d65b14d7"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "674cd05190c9736266c8e94ef86df49a3e17d244d6185ab884632ed282efb718"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "8f48ec1e86f9778c093f717ec28ce3d6d5ecb39241cf5579322f2ab57d7e1ae6"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "7ca6d05d228ce18ce1df836b394f0aa199d434ebd71059b7e928163a512ba6dc"
+        }
+      ]
+    },
+    {
+      "directory": "gen033",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "e4e9aa2506a129c7917604cc18a263c0b5bf3033def3aaa9cadf928b2261a308"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "8f5ace6ea2ae42449b341736e2d34b580fa3fd9222a34f6700d5ae530d22263d"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "bb3a7c89e59677cffebda77bdf054c827ab7f93d61f8ab037079df4f41c686a7"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "99bde41338b6fe949f14d6edaa1f66fb23499747853545ffe7efbfd147769a73"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "1751ec735dc90e8dcbca78e4aba82d756c78604a7a4fab54838aadd2c0759af3"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "f7268714f2c28b06eeaa9595cdcb1fce71acc946b119888ae6361a1d7668751d"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "b77092248dc01328021435a33c02c4e89cb1f186589971cf8eaa2a7b42d2d017"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "62a123d90b2cee706266e7245dc6b9a51cba0bc1cba8df728f069ee011423174"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "1d8ab47b24d9f78cbbfe50c29bb44555521e70727b3e06318ba969b69a014900"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "4724b50fcd0dd461246071241c448bfc5e86c22aa1a39d8e173153ec1727b0bb"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "9d80b2eb8cbdcd09586c198bb78164ab6a74f59bf4db47c4a0e121ab41907fd9"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "1ea10fc349a48e408d13fa0bf89050e27512404c074efc168331f8266bd90286"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "cba6c063270dfa100d5def224278946163fcda02654bd353fd3747e14bb02c2b"
+        }
+      ]
+    },
+    {
+      "directory": "gen034",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "46eb29c8e85453b57c0df1591f8f2a46187ba7b36e8631385027f50f5079709f"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "5daeaea0ae441b7adde8bf787cea295951997a23340fcb3d0f1aee31824d0616"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "6be8fc21f20e26d3fd481373fb65cbd8d80bdcadadfe29918f3d9ad7d026c187"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "a5dce09a299a69ce31515e5634783f7b443ed34bcbe0ef2625d8190b8abd6d01"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "44907a8729eb65c49333bce8a973e27a840c97c4884d9b7f03ea91f4fe6c535a"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "afcd363d1bafb25d951745d68447a0443479ec86bdb95ce14d447fe5e6a01552"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "9d1c9db44eddfe0abb675f8149dfc75ca2298b285123a70abaa18854d3f518a3"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "3ac08aec34c8727f9d7e2e7319b5333c04b801803e640452f0928ec23376d72a"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "3beb84fe5b380fd23b017b0302fbd0f062485624a4a7ab5c420c835b6c9e215b"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "cb457a81149fd818b3a6ff37600ce212bef25fc997ac9926b87686084570dabf"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "f4b89d3378964f6f2b531fa58697c05f0f90d030b900a621719198e66582c7f5"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "1d4b4d80c33de76f979cd31a9f1bf749cfb54c8361c4b8c1046ed9760370255d"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "bbfe900ba50aa0c2146d23b8383ea25a0504b7776fc8574c187f44091799433a"
+        }
+      ]
+    },
+    {
+      "directory": "gen035",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "725e66b7fef998e85583debdad78beb9d18e0ce14d46a3f46260cb4185976c2b"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "2be02adc99d3766ab015d2ca1a7cf651c5c1269a2fc2d09af9b5351a1df0b981"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "349830d1de1ee24f6f10a2d7c7460efb41ed047241902d7d4fc92490b79e9336"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "c761d5495701ff8b9ad2cde39f320afb5a0c4d7c6dc0493916e58240734b56a5"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "4f625f05ff03e59b78b5a5eea1baf1a4318f546eec7cdc8d4917ba6944b29263"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "8d80961afad284ee6612a24c4fa945cad681b9e93ace9e807480f4f295bb0118"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "cadc6be96640ae4e4bd28b9a2c8c272c014b161cd718fcee30a432fab39c0fb5"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "f9d7dcf9a3b43c42a98bfe582c941bbf76c8ff05922afc61a73e5cfd1cba855e"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "df91fcbd414cba4ea5f2f4ddfb393fcf6fba6943537b02694d19de7519629f8c"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "06f76a54bfd32fb6f11837a2ac5a182dc872f12c2c3ef318d30a549359d06e28"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "4f0ae2baa4d7b10f7fd132ed54f050a646bacf8c9cef1f4406f046b9514de690"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "277f71715bbabdb9a55aa5932473c9c997ab97dd81022761536415dc315495b7"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "47f51532adb4efc1d066cb669efc10184a6aa61d222da14d363fe30fcc3263ec"
+        }
+      ]
+    },
+    {
+      "directory": "gen036",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "b71ac04559295bbd0a7e499132ba6cc8a8275a2c8cc420dd1974ee4cdb6732bf"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "45524f4d72ad1537780626255f9a9e4838045fc8fd95c203fe51a77eb56e57ac"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "ae6c2fdcaf9dfde5cfaf03ccb1c07870e72e55f25d45a2efa164046817c5689e"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "e8afcb48b7181a5a6194822ea97d58abb550ba2d11a95c564ab8c7ce395105e9"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "beae2f2fd19f584e3e728c30cd5816dd7628b77800b5f4f86ecc25198efefa49"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "b85062a7f7e6f3c7bd2050c336126e751df0133a2dc29ac4ab6b975a6b4c5ed8"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "3acb99435618a7988859118f77922c83e889fa517d7f25619e9905794f75c316"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "963d4f10a99a7e4ca7048f0dc9d078737b12df625f729e095caa4c21899be896"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "fb86506d37cce754f36f187ae405fe007e23108ca0e291506541d96314a7fb33"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "529a7fa344712521de13684e79e1a4cad3e642d1776b5b5ced10271b0a104df0"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "f98dc65a8cf09cda01221d8363e2944ac94fd4b83362ee8f0e000056987d27e0"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "d3b04f14f0185ec90428df214d2dd44cf594b8e615bcf804226b80b0557bb411"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "44064508638bcc947fec0030c6b73f171ed01d77be373c96873aab03c670e048"
+        }
+      ]
+    },
+    {
+      "directory": "gen037",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "d1332351068aeec2a3552ce71003f75622bac0c3682c7a5121342c5498917631"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "4fa5817f6cbdbb12cd3ca59706c8dd2c888fe61ead7ef3834fb588e328e28b07"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "b513f2c32778ccbd0be726f1c3fa85c7384069e0ce10e950f774a4af52feb425"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "b6ead8c3674b04189ddb76be0a507ec8f66fd4dfae83d1e617fb035eb1c9521a"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "f6bef694df340795c2c2387bcd6e621309eb3580178421da7dfa98437c7c06f3"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "979fe0e285136a3027c3aeecaa8f0b6c280de66c1669f034103bfb2f5779e3dd"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "8654ffddb099456bcbaf9350d965ca7d5eeda859b9574e08bf49ecbd221f8629"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "6d5fbb4e915bc42230eff91a5aa6bdd99a24fcbb5091e2f4394e586c80266daa"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "a8f5555be2bac7cb5f0f88006cd0e0034f8d7f1ea8ea4f841125a2a0f5a9d147"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "1d2c15c4e799c2f3aa15af73af660aa1db8f77827d3af3c0f0cc945f201d38a4"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "6725f0749c2c4530f79a12adafd6708b6c61ecc978b81d28fcafe1d545644e73"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "567d77747b3353cb70ff76bb61dc34101cb2d0be22ecd6d4dded524dd73b154e"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "87da522c4c2d0da06505bb5f16ad6119cfc2e1d4734d481cbd4e258456d4d95a"
+        }
+      ]
+    },
+    {
+      "directory": "gen038",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "8f285ca5cabdcda809cebf88756d65ea92544f28b6b3201f7c42188c8242654e"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "0e3c227a29edcaf76bc573198b3adbe04cafa4ff490cde66213cd703a55ee779"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "174d0f369b2a206a709012a3a680fe555425b79fe5016847b4e22887d18360e4"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "fcb3d2245d6466e21a77974d98500a36c61e58d2dfc760362c89c9060e2becc9"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "3a4f27e6cf2bcca8d236335668748c61bd6c42e3e06c36086c4d3b4d6133319f"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "5f36a875e2e30d2077a7ab8d42466aca8f09c27415ff2f7474fe40bcd19b5af4"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "af66899e65666146e679a4a39eab3a5e68b2532d3be6c2d20adb9381075586ef"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "910c6ab80a82789395eb24fa56c26939f050626f297fcf18aaaf0dc37350bbb2"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "4e9bf3147a27a6238e36b8440d7fa0952e6c6a0a947882bda784959d4a38dc25"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "883540cd500b2a6c799185c2bff572facd4d883031a98dbc4131f37a6355f383"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "91d2acee4ee682eaad7be3cbeef038f408a0d3355b7f9eca49cadf6f2ff4dcb4"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "4f16b247327624969fe954e9ebd987653269d4436b8db00f2370caaee889ede0"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "79038102eb74ec82ae34f162f1f190de26e0e2106c29d5d96d687454100ef8bc"
+        }
+      ]
+    },
+    {
+      "directory": "gen039",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "4058bbe1460d4881ffe95ed519f788d04e3cfdb5064e7267f3fe5316d00b080c"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "22373428564bb343f60f36d4d8a83d5b509330dda7eae6f3cca6022cc76b7eec"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "fd6fe2a8c76942e8237a4327841be5e15b3eee0fcbf2752ede6de9b860924e27"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "1fd249c8b99f9459aaacc01c9f366ce8a9ba44495e515275c7bb0b8900e3f5e6"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "ad58a3f8e0135eb80ea834b7ff06c917ec889267084ed40ecc80548cdb9848e3"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "327952447a31ff4cc99079c35bb7c4f9601944ea1c6ce63bf7007cfbc5e9cc82"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "8cfad07a7dde2098d2c338d148cc72cd7d4f6a5d207257aab606050179084c5c"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "73d5e7cb3f38f63e689cabf5c70833787e77fe1f690439d7f7a49577bda4a5b9"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "91e8fe6b2683a9b9e2675ea443bc4186af5595039fecdd911fd13d3687cd6f63"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "6b25bff98191efdb887e476b5045a6ec890978b8585d50a3ec7f4b0afc1ccde0"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "5b3f0d14ef78cb6611e25ae2387a613edba60ab7837f0be59edc603dee020269"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "c1432115ab92e9ea0d07110b27b98ecaf546cef7d666c6f78a196922d1f62ede"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "c890cde1eae3b25fe0d262195f3b4c76f379c758439608db1cc0ea08aabab0b8"
+        }
+      ]
+    },
+    {
+      "directory": "gen040",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "a838c23cb6b01d05b4424e77e0a635cf1aa5f68a6306a514f6cbcff6be69ef42"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "1f44c4297fb93abcd1c9767dbb92c9677c66b2919f163caaf519131652ced653"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "5935c61ed2e26f8c301d977a917f8b90fcca970861bace112e7b4e8128160320"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "8a365be39d18a68874fd66ae276e572bacca27089f5f21c6212059687a9d2729"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "9717774cef7479cd526695ea1afab04e49d5ad83f2d4d30682646f6405134ee2"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "b85d7f04cc70de5e3b982be743a06ddfe521705e1f8c71bad52a324752d66f31"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "edf581e8fc1d61ff11e12c832b95f150f4a91554ee51ed9cdbce29f5f09d7b61"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "dcd65d817db694d93fdf215b9d75230c7413053e3690e9587d565ce2954c151a"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "27e509e881d6e827e9875c3ce44d90c0724ef5f2ada71496008e12ae9fc20775"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "fa1d051d4ad74eb13d5e8510e8bebd54bb7c99d705ce7484c2b17f58bb582593"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "fa3c4d44aaa52a6f826208bf6fdf1d35f93f27630995f2c6b790ede161d3bb9f"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "deca285eac65f67a2678a730cb1286b00eb2cbe7b66b192e237debf66362e425"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "42fe2743e036a2cff90aa592ebf47bff6a68e788589a31015269df9f491194ea"
+        }
+      ]
+    },
+    {
+      "directory": "gen041",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "196110a9b62a2ada0382bec6b6ef769a970c242bc050b2b9e4df4a869cd07e6f"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "a6773da15c78fa33b685ef8336fc6b336fbe86daff27e575f028695e8707a0fb"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "ca91dc8bc71d7c799d25d1189beb380c19e92e32073f34da7872c068fc9badf3"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "121ab146a47ebc060a213f8dce0909280c5ff5eabef4e7533424f166f9f64b70"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "9c3400e8581823c00272c5070fa2264d22dd7b5a0c12da9f97dc549c741c3523"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "c846d3a3c2597ce403e5f556793533be3e230b1d543b260d321dccc94c630c29"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "ef2d0d047509b583f8f11c170e2b3b685149aaeea13a74ae5f2b19837c8b1a95"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "c72844ac60e43c4815fb48b518a8eeb40400cd585e1dd1c23122499e806a9dba"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "6452ca59d955b482263cb10e5e35a7385a41d35fab6bb2e52f9d2baa3b40579d"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "cbc12ca7e5c8b5e526e26c96171cb32f9c0ddee5d990bd1d43b0aba79c640d64"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "e161254e4191c3897c6162b2fa09bc01c6140e5f43a7b82fb682a5cc7fcd83ea"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "e46080cef1ba1d256cc73099415fb7399601454442c67129a272f084f84ab19f"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "a02c08d9690fc262d8f5bcec6778f08c6d7dd87a62ed674c5352edb1b6345266"
+        }
+      ]
+    },
+    {
+      "directory": "gen042",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "60da937de22bcf735fa052f8ec7983acdfcb0d36289fde04757a0b3f8a32551a"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "1c77d718635e9b3d0aa4814dd1db5d9e1287822dd27cd0cf6a13a5f5c729aaa6"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "26ce7a2e2210ea3e16d529bab0b15f63271cddb8faee099d964ad374e076a1e4"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "c6b3f7a6da208eacb93c142bc046ead33d425433be6484e0aa5dda8bf0fa29f2"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "561a3e2d9e063b2f44eeb8a033ac2acce2aa921766401bfbbcc53ea28f05d915"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "d944fd017ea9ea26722acdcec57141b3d9d8d0012c03b49672f8d593379abc6a"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "49bae1fa783b05d1b0d292ef9fd41379041016f15309473b46f671cc4ee14116"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "e1a11b28f12dd22c7b3066e1d58487cee58ebe2d34fc24a14e1fdb33ee9f96ce"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "fd5d75f60f72e36a9182ce1b928449a68e7281cefc54ec9584226e2b78d919f6"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "11d8d14ff340c6b16ef5ad112f49743d2e6faa60e28c9b8d2a9778673cfe0901"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "a67138632a75a45a2acb64192897a0cd5c56d885cbcc978d56be1999a8764207"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "f6c63e8e77b4488ff99883eef6efb8a9cc9ec519e9736d03733941211c90f267"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "42531cd0e5ede0944ba2c55f540e9d700150f14d09d51c711fc6e18ef18f0b74"
+        }
+      ]
+    },
+    {
+      "directory": "gen043",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "582160dcb37ff29e82cadb93b42d60dea8dca911886696da99ef377b6d51bdf6"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "04b496fc4bc4cb9ffccfce663903de816c46de0e9b9e2d26e4f61232bc5393fe"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "41c42c0d3b88a352b992631db4a60d9078737c027121904fd3cb034af860147d"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "4ac4ac63885cd9d40a7bf0c32ef56e70bc9f392cc8726e704b53e8a4f686e9dd"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "f91b9d40f1262fa8d7eac77f7c947811b48c6f3de76a16bc3e7e469959e11f3a"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "567e2a29302a1a6575707218ba9beeb97b18974aa3fff6c2c8264a0a69c22573"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "baf364fda678414782cbfc1200dc706dbc56a208e6e567859ad956f856cb7da1"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "04e3bebce273a3e033b3f173d1d1b59eabb7ab0476a8c58bc6efbd3c9b3c5976"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "e0c09323f00e8ffa711e97c83c98875960f88fcfa4a40ad0dec2bbc0d0d4a063"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "8cff4b9233175833fe10ec236b12bc6da3b95c02a54603ca12d6ddb02be7d136"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "3f3f1e30b1c0eab770a213887b582360b01a370e4903bd3866947d2e3ea0818a"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "240e832fd7ed11433317bc40b6897cdd19e9c4f6ad4932c11de267c6bf049b65"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "50d490ce4a39ffbf8b94890457b65d43ed2f9b2dc9065d1ac8116ee7642ee32b"
+        }
+      ]
+    },
+    {
+      "directory": "gen044",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "4bb1b946b5da1fba5f44cb8190377f76013556b9f37f867cb75c03b605119d3e"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "51871085176437b070e6dd91e6fdcec77a0173f2eebcdeffdacc126b66668ac6"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "ceb879357ac516ab325e437999a3951638f181e92101541151e0d1bbebd613c3"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "50c4464c789d1a6185cdd57cd513a9c9e513ff1a50b9f04217a96b91f6022cae"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "ca988c1723f84abc6635a159e74fc285d219e5145caea244a1dace4e5dabda35"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "a2861cabdb2a154edad848c6c571396dc3c1706eb74035fd05244f198bb912c5"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "732e27067eb5a351ee35ba5733611e77f2636586bc60ae8a6a3a483ab9edfa38"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "0a6e8d09c87a069592b8f7add5e1042eba744fb35a002aa252ddef10b0fa7cf9"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "b252b915ed321b87ec4aa7ea5f7a70155c96211cc51f1f6234675b1a8649cad2"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "5f01a282710c49e53526227b357c8fbfa205195720051fef003f75219a145ccf"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "4735656b6814990b8f579c6d576e9dd05f72c8715cd64c25c0433ee792ebfcaf"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "dfa59286bb656d29b15b4797e087bc12092357a37a989c6e2c720725828ed45d"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "800f9ac5181dbf2b8f61828597488840b967c890f1930788172f8315b8a6d7e4"
+        }
+      ]
+    },
+    {
+      "directory": "gen045",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "09493a52bdd1c309c020f99a4617e1396ac6d071a9211791e95f07bed1415b34"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "9250183a92ed8d3bdc2ce2ac402a3d6af798c92fc056406adc61aec775fb4ffb"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "fea85991340cec36e5ad462520d670c66852877a55dd32f7b08b7a330a46e108"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "c01b24b21b69b36f2963e17236d81280336c1b04199ad65e43dcfa2d2e203038"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "52dc83751d3293bb1898b0cecced9fcb52723fbc1655790547a7ad4e6fa36441"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "092a4882ae154823bec992cf75dec323e115f07fc4c0fc6aabf055c8a117232d"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "d163fc03dd844a31ebfc134a06d39e7add3b5b4397e08041961bc7f59c1d6e4f"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "1c8ee59c3707c527abe658c697d2d75eeae4b3ab1395a005ffc949cab9f07adb"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "eb4ee12b3a5cc07dadeebf4bed1fed6f3487058af374f911c2cb9722d6ab0107"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "fba2032cc6885633f8ba38d0e840163e4423a63a27040b83e4248c2ec8262b4d"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "dfc127f6746e83836d2eb5bb44687daea934bf9d3e4d7b7abdb175eded878d2f"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "839335d058d68a52e529cbd965dcd4b84629b972493bd7f97580d573ffa567c2"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "e11f9c3ea0dbbeb56d977c1233ad62edf8b5c31143242f5f268b68870c9756d7"
+        }
+      ]
+    },
+    {
+      "directory": "gen046",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "32034b471ee91be9d54db1374d41450c10e282a864eff7d534614ab9db56ec0b"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "94a0eec3c191d933b29e9f8fffd7e533a255a5b208f9b3b29fd3be4281fe2e17"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "acb363ce5897b5fc63d9d43169b148d2b82b04b00b71262ce9d12ff73547f297"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "f9977be660a4bbff04c925c441369ff129c244686aaba60992c0903ddd80d9c3"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "e2d304e96badef2ecc884e897c91e8e1ef5f582736a8b174715556fe6995042c"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "5de32d723bc59dd482ee436440c5a2032b3cbc400c1c88863233a370837d7be8"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "591673b1e8a09918a9e972b25056382a2d70a7676b7227cc204a2ec6d491621b"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "83c4e60e68e0d51805d7cf1eb9ead05ea7732fc813bf2e067229c1a622bfbe53"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "1f73cdb4e8aec3cbc4f4e24f2b32dc40484b002b77671fe4f0c4898977928c02"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "6bf27d8a05aaa28c0d19d28d811ddac1115a745b5c239f780d034a90d9583ba7"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "82ab675930e6c13a147796d6dc05e9a334ef5c2bce1483372ae98d2deef49041"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "94680f996c6623926cbf47ce8fc69f8dc95459576bcfe619dd3626da052705ce"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "f1f9e4d37ae1ce673736b54715e62b5757d3e77ee0cf2c29a16e32db928cce9d"
+        }
+      ]
+    },
+    {
+      "directory": "gen047",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "aa2cbb86e8b958b877cd8a68291385e8823d36b07be97ad66dab228a312ea5eb"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "9da7d9e024b75006cd3a8bbe2ae8f3df52e50405f1c86b6169a9c2168055a88f"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "d5fb8867227ed9c7ffd3582060bb4cc6e8f0f735722b5ae99328900418faebb1"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "b74a2fefe294d43a5871d42370a05ef1245133e1c73946c25b6efa2db44d9418"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "f2f77b022042efd7aa0b9992a00ec6809de164b00fb1e05c07cc5eeb09536b0c"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "7433e39d1a2fdec5fb02fee7465b39c7c19b01bc5294a3f0d24568d65e680f56"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "ee58afa258dcffe2106cb2a5d982c481697c7be774a71bb884535d1f51ddb7a4"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "68c0f3dd4378734ccc9fddc763233fa2c42bf2be8126676d96f37bba656ba1f6"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "ffacee1b3aacf903139e28afe430f366b2c009be36f7c75b2bb93eac1e0dbaa9"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "72a67352fd05461490840a7f41e35a82472286217d8bfb14800d9e8cd47b03ff"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "9bcda0330f60aecd1d28b78ba66d6854853dc672045e0a1b5f2e80cb219ff09d"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "d4a401731c442486aa11b002e8aa19747271888e7e34a75b403bcb247dca7864"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "1ac128a85b1795c312faaaf973a02ab7b7a5ee715e904b7e6bdb8e99623394f8"
+        }
+      ]
+    },
+    {
+      "directory": "gen048",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "3f3e170814a3445e5f8b99fa76f73d52c24cb739e06adbcd3107b94d1de6ce8b"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "8cd2288651e4e6fa66e30b7a23ac454776cd24bc11a265fd921f583fc7414869"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "78f6dddab46c18b5e5d0b8ab24af9fb8c35b6656998cb66e37636b0cbb16a899"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "18f50889d85fb09cc6b957e8b1584be72fa4c31d1d3984a428a1db8a6ed3cf56"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "7f4dc8003f646e23c40f41a4bbf21adabf72c8894e0f3a0dce95275eeb57ff18"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "2f0a806867a8a547b43dd40f42751f4f1ef1cd89a6dc662ebf0e7752f4c53b56"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "90423073d661b8b437072c331a7dc918df007b98c9038297600e0aeab37f75e7"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "bf1da8c6725a7f9d1e79761bfaf9d51c4a4511671f4104c3028fab85835a7e0e"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "99594abade72706969d795e217f67607b47af5fd959f28b268d80fde7ffd24f1"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "0df6ef1dbf921dc3105252e7869e3309e585cb0e9566e40237cd047d7cb5e932"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "72b83c2a58a40aee350fa44fd9d641cbf236d4b99bb3945bdd4bf8e4a86b7f01"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "ecd6630e3de9fd6a4c0cdf0d6d332ef70f2f8e465e2668b3cac0d36a850c805c"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "24f4a7f25edab6b025fd2f3520c1e52a17db9c5f05330f6157cc91461ad65327"
+        }
+      ]
+    },
+    {
+      "directory": "gen049",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "d4451adeb40c550d18f66975016ace5dfb8e23123a48ccdbbe3bfa15541e1a19"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "ca62ae37c3823140cfdc45f45bfa40ae6661ef303a267b2dc0a0a6c9c00ac678"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "88737ca401fce4a019ec7e8c545f584032e7fbfa8bbb95ebae73e50a2d031660"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "b965ecc4dac5d21b40dce366e5744775d3c4d69aef6057660b79e189d66f19e2"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "1cf65cf13fd79d9fdce07ca8b9a68103b5f075aa6be0562252e00883d9b4888e"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "6727f57bfccd4c95fb115ab9718efa0b711304905a6ba4c6bbf2877b13a3dd9f"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "12eee0119f39d960da9effdb75897f7fd8f5d4b03d8f3acee2ed7b475bfb3de9"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "d304283f81bae02b18c4cd253b97371e1a4a59494f5768e8774c5ef38bb1401c"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "2b9bbcd51072ec5c64828a87ccba0d7eab5e9d015bcdb72e29c39bf773f3326f"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "60bce2ffef9569e60510b443e9eacb4ed06079762a80a0909328657258a8fd0c"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "3b4c7b0f81a5ce9a4a0e4e0f61945edd26263bb474fdc1e8a10814f0270a229e"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "27e5b969d58fae1e6a804322ea6ffd0152fcb606aa081d2c2d29e5e77bae3bc0"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "3a4552998bb70276ab6e2af4661eb5fc874025370e237c278c1fcc8398d79f5d"
+        }
+      ]
+    },
+    {
+      "directory": "gen050",
+      "n_scenarios": 13,
+      "files": [
+        {
+          "name": "connected_stop_with_poi",
+          "file": "connected_stop_with_poi.npz",
+          "sha256": "a164d03df8e911030aa6c42601d9c6b7924882ca1cd71df896628f0275ad692c"
+        },
+        {
+          "name": "isolated_stop_no_poi",
+          "file": "isolated_stop_no_poi.npz",
+          "sha256": "5e88b3945785782fc7a07c73fc6a33274d2591b5eba02fe268e64da2bf9825aa"
+        },
+        {
+          "name": "isolated_stop_with_poi",
+          "file": "isolated_stop_with_poi.npz",
+          "sha256": "84d9c134c860491162bd2b23531ed0321a8ddc47a9d36521a278fc862e1d3760"
+        },
+        {
+          "name": "localized_route",
+          "file": "localized_route.npz",
+          "sha256": "cfe07aac5cf20fc81e7415717c8b4107b666da85f446e66e25ba56abd9021b47"
+        },
+        {
+          "name": "route_poi_reachable",
+          "file": "route_poi_reachable.npz",
+          "sha256": "fefd990194eebbf121a6e912d43f2cb0890b3c3ed0467264783adddbb060a9ab"
+        },
+        {
+          "name": "route_poi_unreachable",
+          "file": "route_poi_unreachable.npz",
+          "sha256": "263ff1d7036d774f88202ea36d7de1b8d5eeeff084283494a00408c99e1d6bb7"
+        },
+        {
+          "name": "route_redundant_overlap",
+          "file": "route_redundant_overlap.npz",
+          "sha256": "a58ba6df8facd7858f003860069d2f70062c3b86fa34993aeabf78ae99401f26"
+        },
+        {
+          "name": "route_single_line",
+          "file": "route_single_line.npz",
+          "sha256": "1dc6fcdb9c11f78eff8a9d1be0843a6126ae7d67845150628cb27f36631c9cbe"
+        },
+        {
+          "name": "scaled_bus_full",
+          "file": "scaled_bus_full.npz",
+          "sha256": "988337abe361046e2c3a4fd01a114bdfeba1cbd5bcd672d55adebc90fe5be592"
+        },
+        {
+          "name": "stop_near_rail_connected",
+          "file": "stop_near_rail_connected.npz",
+          "sha256": "c7c495ad057de9493a502040b2558d78919839f6ea7047644eaf4027a1414016"
+        },
+        {
+          "name": "stop_near_rail_isolated",
+          "file": "stop_near_rail_isolated.npz",
+          "sha256": "b4d12397e0817ae2f4ae00a1dd38dd07676196321a55fe4a11b5748eb649b78f"
+        },
+        {
+          "name": "stub_edge_full_route",
+          "file": "stub_edge_full_route.npz",
+          "sha256": "c2816c6202e8d587ada3093af2c2a557085b66a1d564e74a61e118c8c1f9efd4"
+        },
+        {
+          "name": "stub_edge_origin_only",
+          "file": "stub_edge_origin_only.npz",
+          "sha256": "30c13043fa9b30aeaa712ce49ea63aa36f06cffad72585413038fb86cd461109"
+        }
+      ]
+    }
+  ],
+  "corpus_sha256": "c6ed51036dcda75f788e004fb55ec6e53ddb881562b2b8911bce05770d89422e"
+}

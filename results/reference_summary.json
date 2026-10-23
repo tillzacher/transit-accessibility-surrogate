@@ -1,0 +1,2233 @@
+{
+  "completed_routing_conditions": 500,
+  "opportunity_only": false,
+  "synthetic_sets": 50,
+  "known_empty_null_sources": [
+    {
+      "set": 2,
+      "channel": "dog_park",
+      "condition": "null_background"
+    },
+    {
+      "set": 12,
+      "channel": "prison",
+      "condition": "null_background"
+    },
+    {
+      "set": 30,
+      "channel": "bicycle_rental",
+      "condition": "null_background"
+    }
+  ],
+  "missing_authored_sources": [],
+  "excluded_independent_focal_channel": "wrk_emp_total",
+  "opportunity": {
+    "n_eligible": 4024,
+    "n_supported": 3998,
+    "n_pass": 3998,
+    "coverage": 0.9935387673956262,
+    "conditional_pass": 1.0,
+    "pass_fraction_all": 0.9935387673956262,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "negative_reference": 0,
+    "negative_probe": 267,
+    "negative_probe_supported": 263,
+    "negative_probe_supported_fraction": 0.06578289144572286,
+    "strict_joint_pass": 0.9342171085542771,
+    "invalid": 0,
+    "signed_ratio_q5": -2.3669067540592505e-07,
+    "signed_ratio_q25": 0.0,
+    "signed_ratio_q50": 0.0,
+    "signed_ratio_q75": 0.0,
+    "signed_ratio_q95": 3.501332639675776e-07
+  },
+  "relations": [
+    {
+      "relation": "isolated_stop_leakage",
+      "supported": 3919,
+      "passing": 3919,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "routed reference, analytic zero probe"
+    },
+    {
+      "relation": "stub_edge_leakage",
+      "supported": 3854,
+      "passing": 3854,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "routed reference, analytic zero probe"
+    },
+    {
+      "relation": "rail_connection_sensitivity",
+      "supported": 2853,
+      "passing": 2853,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "routed reference, analytic zero probe"
+    },
+    {
+      "relation": "overlap_diminishing_returns",
+      "supported": 3927,
+      "passing": 3927,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "calculated"
+    },
+    {
+      "relation": "spatial_delta_localization",
+      "supported": 3913,
+      "passing": 3913,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "calculated"
+    },
+    {
+      "relation": "rail_connection_sensitivity_stop",
+      "supported": 2853,
+      "passing": 551,
+      "pooled_pass": 0.19313003855590608,
+      "mean_set_pass": 0.17865579430667647,
+      "ci_low": 0.15534857640631292,
+      "ci_high": 0.22864229351906118,
+      "reference_check": "calculated"
+    },
+    {
+      "relation": "poi_reachability_sensitivity",
+      "supported": 3998,
+      "passing": 3998,
+      "pooled_pass": 1.0,
+      "mean_set_pass": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "reference_check": "calculated A/B/N"
+    }
+  ],
+  "maximum_supported_absolute_residual_ratio": 0.05070598316163771,
+  "signed_negative_probe_min": -5.391240119934082e-05,
+  "per_set_other_relations": {
+    "isolated_stop_leakage": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 1,
+        "eligible": 92,
+        "supported": 92,
+        "passing": 92,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 2,
+        "eligible": 75,
+        "supported": 75,
+        "passing": 75,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 3,
+        "eligible": 50,
+        "supported": 50,
+        "passing": 50,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 4,
+        "eligible": 90,
+        "supported": 90,
+        "passing": 90,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 6,
+        "eligible": 38,
+        "supported": 38,
+        "passing": 38,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 7,
+        "eligible": 81,
+        "supported": 81,
+        "passing": 81,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 8,
+        "eligible": 86,
+        "supported": 86,
+        "passing": 86,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 9,
+        "eligible": 44,
+        "supported": 44,
+        "passing": 44,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 11,
+        "eligible": 87,
+        "supported": 87,
+        "passing": 87,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 12,
+        "eligible": 73,
+        "supported": 73,
+        "passing": 73,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 13,
+        "eligible": 100,
+        "supported": 100,
+        "passing": 100,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 14,
+        "eligible": 82,
+        "supported": 82,
+        "passing": 82,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 16,
+        "eligible": 71,
+        "supported": 71,
+        "passing": 71,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 17,
+        "eligible": 52,
+        "supported": 52,
+        "passing": 52,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 18,
+        "eligible": 84,
+        "supported": 84,
+        "passing": 84,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 19,
+        "eligible": 88,
+        "supported": 88,
+        "passing": 88,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 21,
+        "eligible": 45,
+        "supported": 45,
+        "passing": 45,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 22,
+        "eligible": 87,
+        "supported": 87,
+        "passing": 87,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 23,
+        "eligible": 94,
+        "supported": 94,
+        "passing": 94,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 24,
+        "eligible": 69,
+        "supported": 69,
+        "passing": 69,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 26,
+        "eligible": 69,
+        "supported": 69,
+        "passing": 69,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 27,
+        "eligible": 80,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 28,
+        "eligible": 29,
+        "supported": 29,
+        "passing": 29,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 29,
+        "eligible": 86,
+        "supported": 86,
+        "passing": 86,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 31,
+        "eligible": 74,
+        "supported": 74,
+        "passing": 74,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 32,
+        "eligible": 60,
+        "supported": 60,
+        "passing": 60,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 33,
+        "eligible": 68,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 34,
+        "eligible": 65,
+        "supported": 65,
+        "passing": 65,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 36,
+        "eligible": 89,
+        "supported": 89,
+        "passing": 89,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 37,
+        "eligible": 95,
+        "supported": 95,
+        "passing": 95,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 38,
+        "eligible": 46,
+        "supported": 46,
+        "passing": 46,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 39,
+        "eligible": 85,
+        "supported": 85,
+        "passing": 85,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 41,
+        "eligible": 82,
+        "supported": 82,
+        "passing": 82,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 42,
+        "eligible": 83,
+        "supported": 83,
+        "passing": 83,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 43,
+        "eligible": 23,
+        "supported": 23,
+        "passing": 23,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 44,
+        "eligible": 66,
+        "supported": 66,
+        "passing": 66,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 46,
+        "eligible": 101,
+        "supported": 101,
+        "passing": 101,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 47,
+        "eligible": 77,
+        "supported": 77,
+        "passing": 77,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 48,
+        "eligible": 80,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 49,
+        "eligible": 23,
+        "supported": 23,
+        "passing": 23,
+        "reference_check": "routed reference, analytic zero probe"
+      }
+    ],
+    "stub_edge_leakage": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 1,
+        "eligible": 93,
+        "supported": 93,
+        "passing": 93,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 2,
+        "eligible": 100,
+        "supported": 100,
+        "passing": 100,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 3,
+        "eligible": 99,
+        "supported": 99,
+        "passing": 99,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 4,
+        "eligible": 50,
+        "supported": 50,
+        "passing": 50,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 6,
+        "eligible": 80,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 7,
+        "eligible": 62,
+        "supported": 62,
+        "passing": 62,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 8,
+        "eligible": 81,
+        "supported": 81,
+        "passing": 81,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 9,
+        "eligible": 84,
+        "supported": 84,
+        "passing": 84,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 11,
+        "eligible": 78,
+        "supported": 78,
+        "passing": 78,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 12,
+        "eligible": 58,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 13,
+        "eligible": 85,
+        "supported": 85,
+        "passing": 85,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 14,
+        "eligible": 65,
+        "supported": 65,
+        "passing": 65,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 16,
+        "eligible": 78,
+        "supported": 78,
+        "passing": 78,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 17,
+        "eligible": 58,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 18,
+        "eligible": 69,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 19,
+        "eligible": 96,
+        "supported": 96,
+        "passing": 96,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 21,
+        "eligible": 61,
+        "supported": 61,
+        "passing": 61,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 22,
+        "eligible": 51,
+        "supported": 51,
+        "passing": 51,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 23,
+        "eligible": 67,
+        "supported": 67,
+        "passing": 67,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 24,
+        "eligible": 30,
+        "supported": 30,
+        "passing": 30,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 26,
+        "eligible": 87,
+        "supported": 87,
+        "passing": 87,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 27,
+        "eligible": 88,
+        "supported": 88,
+        "passing": 88,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 28,
+        "eligible": 39,
+        "supported": 39,
+        "passing": 39,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 29,
+        "eligible": 35,
+        "supported": 35,
+        "passing": 35,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 31,
+        "eligible": 64,
+        "supported": 64,
+        "passing": 64,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 32,
+        "eligible": 50,
+        "supported": 50,
+        "passing": 50,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 33,
+        "eligible": 91,
+        "supported": 91,
+        "passing": 91,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 34,
+        "eligible": 59,
+        "supported": 59,
+        "passing": 59,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 36,
+        "eligible": 76,
+        "supported": 76,
+        "passing": 76,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 37,
+        "eligible": 71,
+        "supported": 71,
+        "passing": 71,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 38,
+        "eligible": 80,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 39,
+        "eligible": 72,
+        "supported": 72,
+        "passing": 72,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 41,
+        "eligible": 39,
+        "supported": 39,
+        "passing": 39,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 42,
+        "eligible": 95,
+        "supported": 95,
+        "passing": 95,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 43,
+        "eligible": 44,
+        "supported": 44,
+        "passing": 44,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 44,
+        "eligible": 37,
+        "supported": 37,
+        "passing": 37,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 46,
+        "eligible": 78,
+        "supported": 78,
+        "passing": 78,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 47,
+        "eligible": 84,
+        "supported": 84,
+        "passing": 84,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 48,
+        "eligible": 82,
+        "supported": 82,
+        "passing": 82,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 49,
+        "eligible": 89,
+        "supported": 89,
+        "passing": 89,
+        "reference_check": "routed reference, analytic zero probe"
+      }
+    ],
+    "rail_connection_sensitivity": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 86,
+        "passing": 86,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 1,
+        "eligible": 97,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 2,
+        "eligible": 97,
+        "supported": 29,
+        "passing": 29,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 3,
+        "eligible": 53,
+        "supported": 44,
+        "passing": 44,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 4,
+        "eligible": 50,
+        "supported": 44,
+        "passing": 44,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 82,
+        "passing": 82,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 6,
+        "eligible": 65,
+        "supported": 24,
+        "passing": 24,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 7,
+        "eligible": 57,
+        "supported": 48,
+        "passing": 48,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 8,
+        "eligible": 70,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 9,
+        "eligible": 96,
+        "supported": 77,
+        "passing": 77,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 83,
+        "passing": 83,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 11,
+        "eligible": 50,
+        "supported": 41,
+        "passing": 41,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 12,
+        "eligible": 32,
+        "supported": 28,
+        "passing": 28,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 13,
+        "eligible": 64,
+        "supported": 53,
+        "passing": 53,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 14,
+        "eligible": 94,
+        "supported": 76,
+        "passing": 76,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 77,
+        "passing": 77,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 16,
+        "eligible": 86,
+        "supported": 47,
+        "passing": 47,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 17,
+        "eligible": 91,
+        "supported": 81,
+        "passing": 81,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 18,
+        "eligible": 81,
+        "supported": 66,
+        "passing": 66,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 19,
+        "eligible": 96,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 85,
+        "passing": 85,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 21,
+        "eligible": 39,
+        "supported": 34,
+        "passing": 34,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 22,
+        "eligible": 35,
+        "supported": 27,
+        "passing": 27,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 23,
+        "eligible": 74,
+        "supported": 55,
+        "passing": 55,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 24,
+        "eligible": 43,
+        "supported": 35,
+        "passing": 35,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 88,
+        "passing": 88,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 26,
+        "eligible": 81,
+        "supported": 69,
+        "passing": 69,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 27,
+        "eligible": 81,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 28,
+        "eligible": 79,
+        "supported": 53,
+        "passing": 53,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 29,
+        "eligible": 88,
+        "supported": 73,
+        "passing": 73,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 85,
+        "passing": 85,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 31,
+        "eligible": 39,
+        "supported": 31,
+        "passing": 31,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 32,
+        "eligible": 17,
+        "supported": 16,
+        "passing": 16,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 33,
+        "eligible": 66,
+        "supported": 7,
+        "passing": 7,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 34,
+        "eligible": 76,
+        "supported": 63,
+        "passing": 63,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 36,
+        "passing": 36,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 36,
+        "eligible": 88,
+        "supported": 71,
+        "passing": 71,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 37,
+        "eligible": 78,
+        "supported": 59,
+        "passing": 59,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 38,
+        "eligible": 55,
+        "supported": 23,
+        "passing": 23,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 39,
+        "eligible": 37,
+        "supported": 30,
+        "passing": 30,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 88,
+        "passing": 88,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 41,
+        "eligible": 101,
+        "supported": 76,
+        "passing": 76,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 42,
+        "eligible": 59,
+        "supported": 52,
+        "passing": 52,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 43,
+        "eligible": 91,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 44,
+        "eligible": 52,
+        "supported": 35,
+        "passing": 35,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 70,
+        "passing": 70,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 46,
+        "eligible": 75,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 47,
+        "eligible": 93,
+        "supported": 75,
+        "passing": 75,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 48,
+        "eligible": 81,
+        "supported": 32,
+        "passing": 32,
+        "reference_check": "routed reference, analytic zero probe"
+      },
+      {
+        "set": 49,
+        "eligible": 103,
+        "supported": 87,
+        "passing": 87,
+        "reference_check": "routed reference, analytic zero probe"
+      }
+    ],
+    "overlap_diminishing_returns": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 1,
+        "eligible": 31,
+        "supported": 31,
+        "passing": 31,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 2,
+        "eligible": 53,
+        "supported": 53,
+        "passing": 53,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 3,
+        "eligible": 80,
+        "supported": 80,
+        "passing": 80,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 4,
+        "eligible": 94,
+        "supported": 94,
+        "passing": 94,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 6,
+        "eligible": 84,
+        "supported": 84,
+        "passing": 84,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 7,
+        "eligible": 61,
+        "supported": 61,
+        "passing": 61,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 8,
+        "eligible": 102,
+        "supported": 102,
+        "passing": 102,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 9,
+        "eligible": 68,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 11,
+        "eligible": 74,
+        "supported": 74,
+        "passing": 74,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 12,
+        "eligible": 44,
+        "supported": 44,
+        "passing": 44,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 13,
+        "eligible": 90,
+        "supported": 90,
+        "passing": 90,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 14,
+        "eligible": 84,
+        "supported": 84,
+        "passing": 84,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 16,
+        "eligible": 59,
+        "supported": 59,
+        "passing": 59,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 17,
+        "eligible": 101,
+        "supported": 101,
+        "passing": 101,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 18,
+        "eligible": 30,
+        "supported": 30,
+        "passing": 30,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 19,
+        "eligible": 67,
+        "supported": 67,
+        "passing": 67,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 21,
+        "eligible": 82,
+        "supported": 82,
+        "passing": 82,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 22,
+        "eligible": 70,
+        "supported": 70,
+        "passing": 70,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 23,
+        "eligible": 100,
+        "supported": 100,
+        "passing": 100,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 24,
+        "eligible": 90,
+        "supported": 90,
+        "passing": 90,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 26,
+        "eligible": 42,
+        "supported": 42,
+        "passing": 42,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 27,
+        "eligible": 63,
+        "supported": 63,
+        "passing": 63,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 28,
+        "eligible": 60,
+        "supported": 60,
+        "passing": 60,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 29,
+        "eligible": 90,
+        "supported": 90,
+        "passing": 90,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 31,
+        "eligible": 86,
+        "supported": 86,
+        "passing": 86,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 32,
+        "eligible": 20,
+        "supported": 20,
+        "passing": 20,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 33,
+        "eligible": 48,
+        "supported": 48,
+        "passing": 48,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 34,
+        "eligible": 74,
+        "supported": 74,
+        "passing": 74,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 36,
+        "eligible": 58,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 37,
+        "eligible": 89,
+        "supported": 89,
+        "passing": 89,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 38,
+        "eligible": 102,
+        "supported": 102,
+        "passing": 102,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 39,
+        "eligible": 74,
+        "supported": 74,
+        "passing": 74,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 41,
+        "eligible": 78,
+        "supported": 78,
+        "passing": 78,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 42,
+        "eligible": 91,
+        "supported": 91,
+        "passing": 91,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 43,
+        "eligible": 104,
+        "supported": 104,
+        "passing": 104,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 44,
+        "eligible": 41,
+        "supported": 41,
+        "passing": 41,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 46,
+        "eligible": 88,
+        "supported": 88,
+        "passing": 88,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 47,
+        "eligible": 66,
+        "supported": 66,
+        "passing": 66,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 48,
+        "eligible": 64,
+        "supported": 64,
+        "passing": 64,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 49,
+        "eligible": 75,
+        "supported": 75,
+        "passing": 75,
+        "reference_check": "calculated"
+      }
+    ],
+    "spatial_delta_localization": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 1,
+        "eligible": 53,
+        "supported": 53,
+        "passing": 53,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 2,
+        "eligible": 70,
+        "supported": 70,
+        "passing": 70,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 3,
+        "eligible": 91,
+        "supported": 91,
+        "passing": 91,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 4,
+        "eligible": 76,
+        "supported": 76,
+        "passing": 76,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 6,
+        "eligible": 96,
+        "supported": 96,
+        "passing": 96,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 7,
+        "eligible": 69,
+        "supported": 69,
+        "passing": 69,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 8,
+        "eligible": 91,
+        "supported": 91,
+        "passing": 91,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 9,
+        "eligible": 77,
+        "supported": 77,
+        "passing": 77,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 11,
+        "eligible": 58,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 12,
+        "eligible": 60,
+        "supported": 60,
+        "passing": 60,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 13,
+        "eligible": 86,
+        "supported": 86,
+        "passing": 86,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 14,
+        "eligible": 77,
+        "supported": 77,
+        "passing": 77,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 16,
+        "eligible": 45,
+        "supported": 45,
+        "passing": 45,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 17,
+        "eligible": 103,
+        "supported": 103,
+        "passing": 103,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 18,
+        "eligible": 89,
+        "supported": 89,
+        "passing": 89,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 19,
+        "eligible": 57,
+        "supported": 57,
+        "passing": 57,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 21,
+        "eligible": 67,
+        "supported": 67,
+        "passing": 67,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 22,
+        "eligible": 104,
+        "supported": 104,
+        "passing": 104,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 23,
+        "eligible": 93,
+        "supported": 93,
+        "passing": 93,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 24,
+        "eligible": 65,
+        "supported": 65,
+        "passing": 65,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 26,
+        "eligible": 42,
+        "supported": 42,
+        "passing": 42,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 27,
+        "eligible": 95,
+        "supported": 95,
+        "passing": 95,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 28,
+        "eligible": 36,
+        "supported": 36,
+        "passing": 36,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 29,
+        "eligible": 58,
+        "supported": 58,
+        "passing": 58,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 31,
+        "eligible": 49,
+        "supported": 49,
+        "passing": 49,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 32,
+        "eligible": 19,
+        "supported": 19,
+        "passing": 19,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 33,
+        "eligible": 31,
+        "supported": 31,
+        "passing": 31,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 34,
+        "eligible": 64,
+        "supported": 64,
+        "passing": 64,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 36,
+        "eligible": 96,
+        "supported": 96,
+        "passing": 96,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 37,
+        "eligible": 68,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 38,
+        "eligible": 98,
+        "supported": 98,
+        "passing": 98,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 39,
+        "eligible": 76,
+        "supported": 76,
+        "passing": 76,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 41,
+        "eligible": 68,
+        "supported": 68,
+        "passing": 68,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 42,
+        "eligible": 45,
+        "supported": 45,
+        "passing": 45,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 43,
+        "eligible": 93,
+        "supported": 93,
+        "passing": 93,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 44,
+        "eligible": 92,
+        "supported": 92,
+        "passing": 92,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 105,
+        "passing": 105,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 46,
+        "eligible": 93,
+        "supported": 93,
+        "passing": 93,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 47,
+        "eligible": 65,
+        "supported": 65,
+        "passing": 65,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 48,
+        "eligible": 93,
+        "supported": 93,
+        "passing": 93,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 49,
+        "eligible": 55,
+        "supported": 55,
+        "passing": 55,
+        "reference_check": "calculated"
+      }
+    ],
+    "rail_connection_sensitivity_stop": [
+      {
+        "set": 0,
+        "eligible": 105,
+        "supported": 86,
+        "passing": 31,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 1,
+        "eligible": 97,
+        "supported": 80,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 2,
+        "eligible": 97,
+        "supported": 29,
+        "passing": 7,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 3,
+        "eligible": 53,
+        "supported": 44,
+        "passing": 10,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 4,
+        "eligible": 50,
+        "supported": 44,
+        "passing": 7,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 5,
+        "eligible": 105,
+        "supported": 82,
+        "passing": 26,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 6,
+        "eligible": 65,
+        "supported": 24,
+        "passing": 2,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 7,
+        "eligible": 57,
+        "supported": 48,
+        "passing": 13,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 8,
+        "eligible": 70,
+        "supported": 58,
+        "passing": 18,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 9,
+        "eligible": 96,
+        "supported": 77,
+        "passing": 27,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 10,
+        "eligible": 105,
+        "supported": 83,
+        "passing": 12,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 11,
+        "eligible": 50,
+        "supported": 41,
+        "passing": 10,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 12,
+        "eligible": 32,
+        "supported": 28,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 13,
+        "eligible": 64,
+        "supported": 53,
+        "passing": 5,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 14,
+        "eligible": 94,
+        "supported": 76,
+        "passing": 20,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 15,
+        "eligible": 105,
+        "supported": 77,
+        "passing": 4,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 16,
+        "eligible": 86,
+        "supported": 47,
+        "passing": 3,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 17,
+        "eligible": 91,
+        "supported": 81,
+        "passing": 12,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 18,
+        "eligible": 81,
+        "supported": 66,
+        "passing": 5,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 19,
+        "eligible": 96,
+        "supported": 80,
+        "passing": 22,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 20,
+        "eligible": 105,
+        "supported": 85,
+        "passing": 27,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 21,
+        "eligible": 39,
+        "supported": 34,
+        "passing": 2,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 22,
+        "eligible": 35,
+        "supported": 27,
+        "passing": 5,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 23,
+        "eligible": 74,
+        "supported": 55,
+        "passing": 22,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 24,
+        "eligible": 43,
+        "supported": 35,
+        "passing": 9,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 25,
+        "eligible": 105,
+        "supported": 88,
+        "passing": 12,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 26,
+        "eligible": 81,
+        "supported": 69,
+        "passing": 14,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 27,
+        "eligible": 81,
+        "supported": 68,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 28,
+        "eligible": 79,
+        "supported": 53,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 29,
+        "eligible": 88,
+        "supported": 73,
+        "passing": 28,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 30,
+        "eligible": 105,
+        "supported": 85,
+        "passing": 22,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 31,
+        "eligible": 39,
+        "supported": 31,
+        "passing": 2,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 32,
+        "eligible": 17,
+        "supported": 16,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 33,
+        "eligible": 66,
+        "supported": 7,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 34,
+        "eligible": 76,
+        "supported": 63,
+        "passing": 18,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 35,
+        "eligible": 105,
+        "supported": 36,
+        "passing": 14,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 36,
+        "eligible": 88,
+        "supported": 71,
+        "passing": 16,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 37,
+        "eligible": 78,
+        "supported": 59,
+        "passing": 21,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 38,
+        "eligible": 55,
+        "supported": 23,
+        "passing": 4,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 39,
+        "eligible": 37,
+        "supported": 30,
+        "passing": 1,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 40,
+        "eligible": 105,
+        "supported": 88,
+        "passing": 19,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 41,
+        "eligible": 101,
+        "supported": 76,
+        "passing": 3,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 42,
+        "eligible": 59,
+        "supported": 52,
+        "passing": 0,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 43,
+        "eligible": 91,
+        "supported": 68,
+        "passing": 12,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 44,
+        "eligible": 52,
+        "supported": 35,
+        "passing": 1,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 45,
+        "eligible": 105,
+        "supported": 70,
+        "passing": 15,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 46,
+        "eligible": 75,
+        "supported": 58,
+        "passing": 21,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 47,
+        "eligible": 93,
+        "supported": 75,
+        "passing": 19,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 48,
+        "eligible": 81,
+        "supported": 32,
+        "passing": 6,
+        "reference_check": "calculated"
+      },
+      {
+        "set": 49,
+        "eligible": 103,
+        "supported": 87,
+        "passing": 4,
+        "reference_check": "calculated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1174 @@
+{
+  "sets": 50,
+  "scenarios": 650,
+  "arrays": 3300,
+  "exact_arrays": 3134,
+  "rtol": 1e-06,
+  "atol": 1e-07,
+  "maximum_absolute_difference": 5.960464477539063e-08,
+  "all_within_existing_tolerance": true,
+  "differences": [
+    {
+      "set": 0,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 0,
+      "scenario": "stub_edge_origin_only",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 0,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 1,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 2,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 2,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 2,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 2,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 3,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 3,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 4,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 4,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 5,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 5,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 5,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 5,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 6,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 6,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 6,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 6,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 6,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 7,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 8,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 8,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 8,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 8,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 9,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 10,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 10,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 10,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 11,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 11,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 11,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 11,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 12,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 12,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 12,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 13,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 13,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 13,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 14,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 14,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 14,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 14,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 15,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 15,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 15,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 16,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 16,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 16,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 17,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 17,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 17,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 17,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 17,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 18,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 18,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 18,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 20,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 21,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 21,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 21,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 21,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 21,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 22,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 22,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 22,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 22,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 23,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 24,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 26,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 26,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 26,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 26,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 26,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 27,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 27,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 27,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 27,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 28,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 29,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 29,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 29,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 29,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 29,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 30,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 30,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 30,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 31,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 31,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 31,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 31,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 32,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 32,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 32,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 32,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 32,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 33,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 33,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 33,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 33,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 34,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 34,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 35,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 35,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 35,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 35,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 36,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 36,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 37,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 37,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 37,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 37,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 38,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 39,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 39,
+      "scenario": "localized_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 40,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 40,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 40,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 40,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 40,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 41,
+      "scenario": "localized_route",
+      "field": "bus_stops",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 41,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 42,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 42,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 42,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 42,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 42,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 43,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 43,
+      "scenario": "stop_near_rail_connected",
+      "field": "bus_stops",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 43,
+      "scenario": "stop_near_rail_isolated",
+      "field": "bus_stops",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 43,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 43,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 44,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 44,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 45,
+      "scenario": "route_poi_reachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 45,
+      "scenario": "route_poi_unreachable",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 46,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 46,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 47,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 48,
+      "scenario": "connected_stop_with_poi",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 48,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 49,
+      "scenario": "scaled_bus_full",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 49,
+      "scenario": "route_single_line",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 49,
+      "scenario": "route_redundant_overlap",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    },
+    {
+      "set": 49,
+      "scenario": "stub_edge_full_route",
+      "field": "bus_edges",
+      "equal": false,
+      "max_abs": 5.960464477539063e-08
+    }
+  ]
+}
